@@ -1,21 +1,9 @@
-<<<<<<< HEAD
-ClientVersion=6200
-ServerVersion=6200
+ClientVersion=6203
+ServerVersion=6203
 ProductName=citadel
 appID=1422450
 ServerAppID=1422460
 ToolsAppID=211
-SourceRevision=10412978
+SourceRevision=10413751
 VersionDate=Jan 29 2026
-VersionTime=15:24:47
-=======
-ClientVersion=6199
-ServerVersion=6199
-ProductName=citadel
-appID=1422450
-ServerAppID=1422460
-ToolsAppID=211
-SourceRevision=10412565
-VersionDate=Jan 29 2026
-VersionTime=14:26:10
->>>>>>> upstream/master
+VersionTime=17:41:24
