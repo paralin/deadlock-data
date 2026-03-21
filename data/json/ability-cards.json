@@ -20,10 +20,10 @@
                         },
                         {
                             "Title": "On Hit:",
-                            "Key": "SlowDuration",
-                            "Name": "Slow Duration",
-                            "Value": 4,
-                            "Type": "duration"
+                            "Key": "SlowPercent",
+                            "Name": "Move Speed",
+                            "Value": 35,
+                            "Type": "slow"
                         },
                         {
                             "Title": "On Hit:",
@@ -92,13 +92,6 @@
                     "Name": "Channel Move Speed",
                     "Value": 18,
                     "Type": "move_speed"
-                }
-            },
-            "Debuff": {
-                "SlowPercent": {
-                    "Name": "Move Speed",
-                    "Value": 35,
-                    "Type": "slow"
                 }
             },
             "Other": {
@@ -1489,12 +1482,6 @@
                                 "Type": "spirit"
                             },
                             "Type": "tech_damage"
-                        },
-                        {
-                            "Key": "SilenceOnDrain",
-                            "Name": "Unknown(SilenceOnDrain)",
-                            "StatusEffect": "EMP",
-                            "Value": 0
                         }
                     ]
                 },
@@ -3342,6 +3329,11 @@
                     "Name": null,
                     "Value": 0.4
                 }
+            },
+            "AbilityCastDelay": {
+                "Name": "Cast Delay",
+                "Value": 0.2,
+                "Type": "cast"
             },
             "AbilityCastRange": {
                 "Name": "Cast Range",
@@ -8402,6 +8394,11 @@
                 "Name": "Charge Delay",
                 "Value": -1.0,
                 "Type": "charge_cooldown"
+            },
+            "AbilityDuration": {
+                "Name": "Duration",
+                "Value": 3,
+                "Type": "duration"
             },
             "Radius": {
                 "Name": "Radius",
@@ -14095,6 +14092,11 @@
                             "Type": "tech_damage"
                         },
                         {
+                            "Key": "HexDuration",
+                            "Name": "Hex Duration",
+                            "Value": 2
+                        },
+                        {
                             "Key": "DamageAmpPercentage",
                             "Name": "Damage Amp",
                             "Value": 15,
@@ -14159,10 +14161,6 @@
                 "DetonationDelay": {
                     "Name": null,
                     "Value": 0.9
-                },
-                "HexDuration": {
-                    "Name": "Hex Duration",
-                    "Value": 2
                 },
                 "SelfBumpImpulse": {
                     "Name": null,
