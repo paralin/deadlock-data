@@ -12,7 +12,8 @@
         "Hull": 1,
         "IntrinsicModifiers": [
             {
-                "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0
+                "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0,
+                "BULLET_ARMOR_DAMAGE_RESIST": 10
             }
         ],
         "InvulRange": 24.0,
@@ -43,7 +44,7 @@
             "ClipSize": -1,
             "ReloadTime": 1,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 50.8,
             "FalloffEndRange": 50.8,
@@ -301,7 +302,7 @@
         "IntrinsicModifiers": [
             {
                 "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0,
-                "BULLET_ARMOR_DAMAGE_RESIST": 15
+                "BULLET_ARMOR_DAMAGE_RESIST": 25
             }
         ],
         "InvulModifier": {
@@ -626,7 +627,7 @@
         "IntrinsicModifiers": [
             {
                 "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0,
-                "BULLET_ARMOR_DAMAGE_RESIST": 15
+                "BULLET_ARMOR_DAMAGE_RESIST": 25
             }
         ],
         "InvulModifier": {
@@ -745,7 +746,7 @@
                     "ClipSize": 16,
                     "ReloadTime": 1,
                     "ReloadMovespeed": 1.0,
-                    "ReloadDelay": 0,
+                    "ReloadDelay": 0.0,
                     "ReloadSingle": false,
                     "FalloffStartRange": 25.4,
                     "FalloffEndRange": 76.2,
@@ -1352,6 +1353,12 @@
             "BulletResistReductionPerHero": 20
         },
         "EnemyTrooperProtectionRange": 40.0,
+        "IntrinsicModifiers": [
+            {
+                "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0,
+                "BULLET_ARMOR_DAMAGE_RESIST": 10
+            }
+        ],
         "MaxHealthFinal": 8775,
         "MaxHealthGenerator": 5000,
         "MaxHealthGeneratorSecond": 10000,
@@ -1388,7 +1395,7 @@
             "ClipSize": 10,
             "ReloadTime": 1.5,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 50.8,
             "FalloffEndRange": 76.2,
@@ -1444,7 +1451,7 @@
             "ClipSize": 10,
             "ReloadTime": 1.5,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 50.8,
             "FalloffEndRange": 76.2,
@@ -1498,7 +1505,7 @@
             "ClipSize": -1,
             "ReloadTime": 0.25,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 38.1,
             "FalloffEndRange": 38.1,
@@ -1554,7 +1561,7 @@
             "ClipSize": -1,
             "ReloadTime": 0.25,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 38.1,
             "FalloffEndRange": 38.1,
@@ -1610,7 +1617,7 @@
             "ClipSize": -1,
             "ReloadTime": 0.25,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 38.1,
             "FalloffEndRange": 38.1,
@@ -1648,7 +1655,8 @@
         "Hull": 1,
         "IntrinsicModifiers": [
             {
-                "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0
+                "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0,
+                "BULLET_ARMOR_DAMAGE_RESIST": 10
             }
         ],
         "InvulRange": 24.0,
@@ -1680,7 +1688,7 @@
             "ClipSize": -1,
             "ReloadTime": 1,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 50.8,
             "FalloffEndRange": 50.8,
@@ -1718,7 +1726,8 @@
         "Hull": 1,
         "IntrinsicModifiers": [
             {
-                "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0
+                "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0,
+                "BULLET_ARMOR_DAMAGE_RESIST": 10
             }
         ],
         "InvulRange": 24.0,
@@ -1750,7 +1759,7 @@
             "ClipSize": -1,
             "ReloadTime": 1,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 50.8,
             "FalloffEndRange": 50.8,
@@ -1788,7 +1797,8 @@
         "Hull": 1,
         "IntrinsicModifiers": [
             {
-                "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0
+                "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0,
+                "BULLET_ARMOR_DAMAGE_RESIST": 10
             }
         ],
         "InvulRange": 24.0,
@@ -1820,7 +1830,7 @@
             "ClipSize": -1,
             "ReloadTime": 1,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 50.8,
             "FalloffEndRange": 50.8,
@@ -1860,7 +1870,8 @@
         "Hull": 1,
         "IntrinsicModifiers": [
             {
-                "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0
+                "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0,
+                "BULLET_ARMOR_DAMAGE_RESIST": 10
             }
         ],
         "InvulRange": 24.0,
@@ -1891,7 +1902,7 @@
             "ClipSize": -1,
             "ReloadTime": 1,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 50.8,
             "FalloffEndRange": 50.8,
@@ -2149,7 +2160,7 @@
         "IntrinsicModifiers": [
             {
                 "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0,
-                "BULLET_ARMOR_DAMAGE_RESIST": 15
+                "BULLET_ARMOR_DAMAGE_RESIST": 25
             }
         ],
         "InvulModifier": {
@@ -2474,7 +2485,7 @@
         "IntrinsicModifiers": [
             {
                 "ABILITY_DAMAGE_REDUCTION_PERCENT": 0.0,
-                "BULLET_ARMOR_DAMAGE_RESIST": 15
+                "BULLET_ARMOR_DAMAGE_RESIST": 25
             }
         ],
         "InvulModifier": {
@@ -2593,7 +2604,7 @@
                     "ClipSize": 16,
                     "ReloadTime": 1,
                     "ReloadMovespeed": 1.0,
-                    "ReloadDelay": 0,
+                    "ReloadDelay": 0.0,
                     "ReloadSingle": false,
                     "FalloffStartRange": 25.4,
                     "FalloffEndRange": 76.2,
@@ -3206,7 +3217,7 @@
             "ClipSize": 10,
             "ReloadTime": 1.5,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 50.8,
             "FalloffEndRange": 76.2,
@@ -3390,7 +3401,7 @@
             "ClipSize": -1,
             "ReloadTime": 0,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 38.1,
             "FalloffEndRange": 38.1,
@@ -3514,7 +3525,7 @@
             "ClipSize": null,
             "ReloadTime": null,
             "ReloadMovespeed": 0.0,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 0,
             "FalloffEndRange": 0,
@@ -3533,18 +3544,9 @@
     },
     "trooper_base": {
         "Acceleration": 200,
-        "AttackShrineMaxRange": 11.43,
-        "AttackT1BossMaxRange": 12.0,
-        "AttackT2BossMaxRange": 17.78,
-        "AttackT3BossMaxRange": 25.4,
-        "AttackT3BossPhase2MaxRange": 12.0,
-        "AttackTrooperMaxRange": 17.78,
-        "BarrackBossDPS": 80.0,
-        "BarrackGuardianDamageResistPct": 67.5,
         "BreakableForceScale": 5.0,
         "DPSPctGrowthPerMinute": 0.0,
         "EnemyBaseDamageReduction": 35.0,
-        "GeneratorBossDPS": 50.0,
         "MaxHealth": 300,
         "MeleeAttemptRange": 2.54,
         "MeleeChargeRange": 0,
@@ -3554,8 +3556,6 @@
         "OutlineThroughWalls": true,
         "OutlineWhenVisible": true,
         "OutlineWidth": 0.1016,
-        "PlayerDPS": 28.0,
-        "PlayerDamageResistPct": -25.0,
         "RunSpeed": 13.0,
         "ShrinesDownBuffModifier": {
             "HealthScale": 1.4,
@@ -3564,21 +3564,47 @@
         },
         "SightRangeNPCs": 40.64,
         "SightRangePlayers": 17.78,
-        "T1BossDPS": 36.0,
-        "T1BossDPSBaseResist": 60.0,
-        "T1BossDPSMaxResist": -50.0,
-        "T1BossDPSMaxResistTimeInSeconds": 600.0,
-        "T1BossDamageResistPct": 0.0,
-        "T2BossDPS": 60.0,
-        "T2BossDPSBaseResist": 60.0,
-        "T2BossDPSMaxResist": -40.0,
-        "T2BossDPSMaxResistTimeInSeconds": 1200.0,
-        "T2BossDamageResistPct": 80.0,
-        "T3BossDPS": 50.0,
-        "T3BossDamageResistPct": 50.0,
-        "TrooperDPS": 35.0,
-        "TrooperDamageResistPct": 42.5,
         "TurnRate": 360.0,
+        "VSGuardian": {
+            "BaseDPS": 14.4,
+            "EndDPS": 54.0,
+            "EndDPSTimeInSeconds": 600.0,
+            "MaxRange": 12.0
+        },
+        "VSPatron": {
+            "BaseDPS": 50.0,
+            "MaxRange": 25.4,
+            "DamageResist": 50.0
+        },
+        "VSPatronPhase2": {
+            "BaseDPS": 50.0,
+            "MaxRange": 12.0,
+            "DamageResist": 50.0
+        },
+        "VSPlayer": {
+            "BaseDPS": 28.0,
+            "DamageResist": -25.0
+        },
+        "VSShrine": {
+            "BaseDPS": 50.0,
+            "MaxRange": 11.43
+        },
+        "VSTrooper": {
+            "BaseDPS": 35.0,
+            "MaxRange": 17.78,
+            "DamageResist": 42.5
+        },
+        "VSWalker": {
+            "BaseDPS": 24.0,
+            "EndDPS": 84.0,
+            "EndDPSTimeInSeconds": 1200.0,
+            "MaxRange": 17.78,
+            "DamageResist": 80.0
+        },
+        "VSWatcher": {
+            "BaseDPS": 80.0,
+            "DamageResist": 67.5
+        },
         "WalkSpeed": 6.299,
         "WeaponInfo": {
             "BulletSpeed": 304.8,
@@ -3587,7 +3613,7 @@
             "ClipSize": -1,
             "ReloadTime": 1.8,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 15.24,
             "FalloffEndRange": 25.4,
@@ -3608,14 +3634,6 @@
     },
     "trooper_medic": {
         "Acceleration": 200,
-        "AttackShrineMaxRange": 11.43,
-        "AttackT1BossMaxRange": 12.0,
-        "AttackT2BossMaxRange": 17.78,
-        "AttackT3BossMaxRange": 25.4,
-        "AttackT3BossPhase2MaxRange": 12.0,
-        "AttackTrooperMaxRange": 22.86,
-        "BarrackBossDPS": 80.0,
-        "BarrackGuardianDamageResistPct": 67.5,
         "BoundAbilities": {
             "ESlot_Signature_2": {
                 "AbilityProperties": {
@@ -3652,7 +3670,6 @@
         "BreakableForceScale": 5.0,
         "DPSPctGrowthPerMinute": 3.0,
         "EnemyBaseDamageReduction": 35.0,
-        "GeneratorBossDPS": 50.0,
         "MaxHealth": 350,
         "MeleeAttackPoints": [
             0.3
@@ -3671,8 +3688,6 @@
         "OutlineThroughWalls": true,
         "OutlineWhenVisible": true,
         "OutlineWidth": 0.1016,
-        "PlayerDPS": 28.0,
-        "PlayerDamageResistPct": -25.0,
         "RunSpeed": 13.0,
         "ShrinesDownBuffModifier": {
             "HealthScale": 1.4,
@@ -3682,22 +3697,48 @@
         "SightRangeNPCs": 40.64,
         "SightRangePlayers": 22.86,
         "SpawnBreakablesOnDeath": true,
-        "T1BossDPS": 36.0,
-        "T1BossDPSBaseResist": 60.0,
-        "T1BossDPSMaxResist": -50.0,
-        "T1BossDPSMaxResistTimeInSeconds": 600.0,
-        "T1BossDamageResistPct": 0.0,
-        "T2BossDPS": 60.0,
-        "T2BossDPSBaseResist": 60.0,
-        "T2BossDPSMaxResist": -40.0,
-        "T2BossDPSMaxResistTimeInSeconds": 1200.0,
-        "T2BossDamageResistPct": 80.0,
-        "T3BossDPS": 50.0,
-        "T3BossDamageResistPct": 50.0,
-        "TrooperDPS": 45.0,
-        "TrooperDamageResistPct": 42.5,
         "TrooperType": "TROOPER_MEDIC",
         "TurnRate": 360.0,
+        "VSGuardian": {
+            "BaseDPS": 14.4,
+            "EndDPS": 54.0,
+            "EndDPSTimeInSeconds": 600.0,
+            "MaxRange": 12.0
+        },
+        "VSPatron": {
+            "BaseDPS": 50.0,
+            "MaxRange": 25.4,
+            "DamageResist": 50.0
+        },
+        "VSPatronPhase2": {
+            "BaseDPS": 50.0,
+            "MaxRange": 12.0,
+            "DamageResist": 50.0
+        },
+        "VSPlayer": {
+            "BaseDPS": 28.0,
+            "DamageResist": -25.0
+        },
+        "VSShrine": {
+            "BaseDPS": 50.0,
+            "MaxRange": 11.43
+        },
+        "VSTrooper": {
+            "BaseDPS": 45.0,
+            "MaxRange": 22.86,
+            "DamageResist": 42.5
+        },
+        "VSWalker": {
+            "BaseDPS": 24.0,
+            "EndDPS": 84.0,
+            "EndDPSTimeInSeconds": 1200.0,
+            "MaxRange": 17.78,
+            "DamageResist": 80.0
+        },
+        "VSWatcher": {
+            "BaseDPS": 80.0,
+            "DamageResist": 67.5
+        },
         "WalkSpeed": 6.299,
         "WeaponInfo": {
             "BulletSpeed": 304.8,
@@ -3706,7 +3747,7 @@
             "ClipSize": -1,
             "ReloadTime": 1.8,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 15.24,
             "FalloffEndRange": 35.56,
@@ -3727,18 +3768,9 @@
     },
     "trooper_melee": {
         "Acceleration": 200,
-        "AttackShrineMaxRange": 11.43,
-        "AttackT1BossMaxRange": 12.0,
-        "AttackT2BossMaxRange": 17.78,
-        "AttackT3BossMaxRange": 25.4,
-        "AttackT3BossPhase2MaxRange": 12.0,
-        "AttackTrooperMaxRange": 17.78,
-        "BarrackBossDPS": 80.0,
-        "BarrackGuardianDamageResistPct": 67.5,
         "BreakableForceScale": 5.0,
         "DPSPctGrowthPerMinute": 0.0,
         "EnemyBaseDamageReduction": 35.0,
-        "GeneratorBossDPS": 50.0,
         "MaxHealth": 400,
         "MeleeAttackPoints": [
             0.4
@@ -3757,8 +3789,6 @@
         "OutlineThroughWalls": true,
         "OutlineWhenVisible": true,
         "OutlineWidth": 0.1016,
-        "PlayerDPS": 28.0,
-        "PlayerDamageResistPct": -25.0,
         "RunSpeed": 13.0,
         "ShrinesDownBuffModifier": {
             "HealthScale": 1.4,
@@ -3768,22 +3798,48 @@
         "SightRangeNPCs": 40.64,
         "SightRangePlayers": 17.78,
         "SpawnBreakablesOnDeath": true,
-        "T1BossDPS": 36.0,
-        "T1BossDPSBaseResist": 60.0,
-        "T1BossDPSMaxResist": -50.0,
-        "T1BossDPSMaxResistTimeInSeconds": 600.0,
-        "T1BossDamageResistPct": 0.0,
-        "T2BossDPS": 60.0,
-        "T2BossDPSBaseResist": 60.0,
-        "T2BossDPSMaxResist": -40.0,
-        "T2BossDPSMaxResistTimeInSeconds": 1200.0,
-        "T2BossDamageResistPct": 80.0,
-        "T3BossDPS": 50.0,
-        "T3BossDamageResistPct": 50.0,
-        "TrooperDPS": 35.0,
-        "TrooperDamageResistPct": 42.5,
         "TrooperType": "TROOPER_MELEE",
         "TurnRate": 360.0,
+        "VSGuardian": {
+            "BaseDPS": 14.4,
+            "EndDPS": 54.0,
+            "EndDPSTimeInSeconds": 600.0,
+            "MaxRange": 12.0
+        },
+        "VSPatron": {
+            "BaseDPS": 50.0,
+            "MaxRange": 25.4,
+            "DamageResist": 50.0
+        },
+        "VSPatronPhase2": {
+            "BaseDPS": 50.0,
+            "MaxRange": 12.0,
+            "DamageResist": 50.0
+        },
+        "VSPlayer": {
+            "BaseDPS": 28.0,
+            "DamageResist": -25.0
+        },
+        "VSShrine": {
+            "BaseDPS": 50.0,
+            "MaxRange": 11.43
+        },
+        "VSTrooper": {
+            "BaseDPS": 35.0,
+            "MaxRange": 17.78,
+            "DamageResist": 42.5
+        },
+        "VSWalker": {
+            "BaseDPS": 24.0,
+            "EndDPS": 84.0,
+            "EndDPSTimeInSeconds": 1200.0,
+            "MaxRange": 17.78,
+            "DamageResist": 80.0
+        },
+        "VSWatcher": {
+            "BaseDPS": 80.0,
+            "DamageResist": 67.5
+        },
         "WalkSpeed": 8.128,
         "WeaponInfo": {
             "BulletSpeed": 304.8,
@@ -3792,7 +3848,7 @@
             "ClipSize": -1,
             "ReloadTime": 1.8,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 15.24,
             "FalloffEndRange": 35.56,
@@ -3813,18 +3869,9 @@
     },
     "trooper_necro": {
         "Acceleration": 200,
-        "AttackShrineMaxRange": 11.43,
-        "AttackT1BossMaxRange": 12.0,
-        "AttackT2BossMaxRange": 17.78,
-        "AttackT3BossMaxRange": 25.4,
-        "AttackT3BossPhase2MaxRange": 12.0,
-        "AttackTrooperMaxRange": 17.78,
-        "BarrackBossDPS": 80.0,
-        "BarrackGuardianDamageResistPct": 67.5,
         "BreakableForceScale": 5.0,
         "DPSPctGrowthPerMinute": 0.0,
         "EnemyBaseDamageReduction": 35.0,
-        "GeneratorBossDPS": 50.0,
         "MaxHealth": 400,
         "MeleeAttackPoints": [
             0.4
@@ -3839,8 +3886,6 @@
         "OutlineThroughWalls": true,
         "OutlineWhenVisible": true,
         "OutlineWidth": 0.1016,
-        "PlayerDPS": 28.0,
-        "PlayerDamageResistPct": -25.0,
         "RunSpeed": 13.0,
         "ShrinesDownBuffModifier": {
             "HealthScale": 1.4,
@@ -3849,22 +3894,48 @@
         },
         "SightRangeNPCs": 40.64,
         "SightRangePlayers": 17.78,
-        "T1BossDPS": 36.0,
-        "T1BossDPSBaseResist": 60.0,
-        "T1BossDPSMaxResist": -50.0,
-        "T1BossDPSMaxResistTimeInSeconds": 600.0,
-        "T1BossDamageResistPct": 0.0,
-        "T2BossDPS": 60.0,
-        "T2BossDPSBaseResist": 60.0,
-        "T2BossDPSMaxResist": -40.0,
-        "T2BossDPSMaxResistTimeInSeconds": 1200.0,
-        "T2BossDamageResistPct": 80.0,
-        "T3BossDPS": 50.0,
-        "T3BossDamageResistPct": 50.0,
-        "TrooperDPS": 35.0,
-        "TrooperDamageResistPct": 42.5,
         "TrooperType": "TROOPER_MELEE",
         "TurnRate": 360.0,
+        "VSGuardian": {
+            "BaseDPS": 14.4,
+            "EndDPS": 54.0,
+            "EndDPSTimeInSeconds": 600.0,
+            "MaxRange": 12.0
+        },
+        "VSPatron": {
+            "BaseDPS": 50.0,
+            "MaxRange": 25.4,
+            "DamageResist": 50.0
+        },
+        "VSPatronPhase2": {
+            "BaseDPS": 50.0,
+            "MaxRange": 12.0,
+            "DamageResist": 50.0
+        },
+        "VSPlayer": {
+            "BaseDPS": 28.0,
+            "DamageResist": -25.0
+        },
+        "VSShrine": {
+            "BaseDPS": 50.0,
+            "MaxRange": 11.43
+        },
+        "VSTrooper": {
+            "BaseDPS": 35.0,
+            "MaxRange": 17.78,
+            "DamageResist": 42.5
+        },
+        "VSWalker": {
+            "BaseDPS": 24.0,
+            "EndDPS": 84.0,
+            "EndDPSTimeInSeconds": 1200.0,
+            "MaxRange": 17.78,
+            "DamageResist": 80.0
+        },
+        "VSWatcher": {
+            "BaseDPS": 80.0,
+            "DamageResist": 67.5
+        },
         "WalkSpeed": 8.128,
         "WeaponInfo": {
             "BulletSpeed": 304.8,
@@ -3873,7 +3944,7 @@
             "ClipSize": -1,
             "ReloadTime": 1.8,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 15.24,
             "FalloffEndRange": 35.56,
@@ -3894,18 +3965,9 @@
     },
     "trooper_normal": {
         "Acceleration": 200,
-        "AttackShrineMaxRange": 11.43,
-        "AttackT1BossMaxRange": 12.0,
-        "AttackT2BossMaxRange": 17.78,
-        "AttackT3BossMaxRange": 25.4,
-        "AttackT3BossPhase2MaxRange": 12.0,
-        "AttackTrooperMaxRange": 17.78,
-        "BarrackBossDPS": 80.0,
-        "BarrackGuardianDamageResistPct": 67.5,
         "BreakableForceScale": 5.0,
         "DPSPctGrowthPerMinute": 0.0,
         "EnemyBaseDamageReduction": 35.0,
-        "GeneratorBossDPS": 50.0,
         "MaxHealth": 300,
         "MeleeAttackPoints": [
             0.5
@@ -3924,8 +3986,6 @@
         "OutlineThroughWalls": true,
         "OutlineWhenVisible": true,
         "OutlineWidth": 0.1016,
-        "PlayerDPS": 28.0,
-        "PlayerDamageResistPct": -25.0,
         "RunSpeed": 13.0,
         "ShrinesDownBuffModifier": {
             "HealthScale": 1.4,
@@ -3935,21 +3995,47 @@
         "SightRangeNPCs": 40.64,
         "SightRangePlayers": 17.78,
         "SpawnBreakablesOnDeath": true,
-        "T1BossDPS": 36.0,
-        "T1BossDPSBaseResist": 60.0,
-        "T1BossDPSMaxResist": -50.0,
-        "T1BossDPSMaxResistTimeInSeconds": 600.0,
-        "T1BossDamageResistPct": 0.0,
-        "T2BossDPS": 60.0,
-        "T2BossDPSBaseResist": 60.0,
-        "T2BossDPSMaxResist": -40.0,
-        "T2BossDPSMaxResistTimeInSeconds": 1200.0,
-        "T2BossDamageResistPct": 80.0,
-        "T3BossDPS": 50.0,
-        "T3BossDamageResistPct": 50.0,
-        "TrooperDPS": 35.0,
-        "TrooperDamageResistPct": 42.5,
         "TurnRate": 360.0,
+        "VSGuardian": {
+            "BaseDPS": 14.4,
+            "EndDPS": 54.0,
+            "EndDPSTimeInSeconds": 600.0,
+            "MaxRange": 12.0
+        },
+        "VSPatron": {
+            "BaseDPS": 50.0,
+            "MaxRange": 25.4,
+            "DamageResist": 50.0
+        },
+        "VSPatronPhase2": {
+            "BaseDPS": 50.0,
+            "MaxRange": 12.0,
+            "DamageResist": 50.0
+        },
+        "VSPlayer": {
+            "BaseDPS": 28.0,
+            "DamageResist": -25.0
+        },
+        "VSShrine": {
+            "BaseDPS": 50.0,
+            "MaxRange": 11.43
+        },
+        "VSTrooper": {
+            "BaseDPS": 35.0,
+            "MaxRange": 17.78,
+            "DamageResist": 42.5
+        },
+        "VSWalker": {
+            "BaseDPS": 24.0,
+            "EndDPS": 84.0,
+            "EndDPSTimeInSeconds": 1200.0,
+            "MaxRange": 17.78,
+            "DamageResist": 80.0
+        },
+        "VSWatcher": {
+            "BaseDPS": 80.0,
+            "DamageResist": 67.5
+        },
         "WalkSpeed": 6.299,
         "WeaponInfo": {
             "BulletSpeed": 304.8,
@@ -3958,7 +4044,7 @@
             "ClipSize": -1,
             "ReloadTime": 1.8,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 15.24,
             "FalloffEndRange": 25.4,
@@ -3979,14 +4065,6 @@
     },
     "trooper_zipline_container": {
         "Acceleration": 200,
-        "AttackShrineMaxRange": 11.43,
-        "AttackT1BossMaxRange": 12.0,
-        "AttackT2BossMaxRange": 17.78,
-        "AttackT3BossMaxRange": 25.4,
-        "AttackT3BossPhase2MaxRange": 12.0,
-        "AttackTrooperMaxRange": 17.78,
-        "BarrackBossDPS": 80.0,
-        "BarrackGuardianDamageResistPct": 67.5,
         "BoundAbilities": {
             "ESlot_Ability_ZipLine": {
                 "AbilityProperties": {
@@ -4175,7 +4253,6 @@
         },
         "BreakableForceScale": 5.0,
         "DPSPctGrowthPerMinute": 0.0,
-        "GeneratorBossDPS": 50.0,
         "MaxHealth": 1,
         "MeleeAttemptRange": 2.54,
         "MeleeChargeRange": 0,
@@ -4185,8 +4262,6 @@
         "OutlineThroughWalls": true,
         "OutlineWhenVisible": true,
         "OutlineWidth": 0.1016,
-        "PlayerDPS": 28.0,
-        "PlayerDamageResistPct": -25.0,
         "RunSpeed": 13.0,
         "ShrinesDownBuffModifier": {
             "HealthScale": 1.4,
@@ -4196,22 +4271,48 @@
         "SightRangeNPCs": 40.64,
         "SightRangePlayers": 17.78,
         "SpawnBreakablesOnDeath": false,
-        "T1BossDPS": 36.0,
-        "T1BossDPSBaseResist": 60.0,
-        "T1BossDPSMaxResist": -50.0,
-        "T1BossDPSMaxResistTimeInSeconds": 600.0,
-        "T1BossDamageResistPct": 0.0,
-        "T2BossDPS": 60.0,
-        "T2BossDPSBaseResist": 60.0,
-        "T2BossDPSMaxResist": -40.0,
-        "T2BossDPSMaxResistTimeInSeconds": 1200.0,
-        "T2BossDamageResistPct": 80.0,
-        "T3BossDPS": 50.0,
-        "T3BossDamageResistPct": 50.0,
-        "TrooperDPS": 35.0,
-        "TrooperDamageResistPct": 42.5,
         "TrooperType": "TROOPER_ZIPLINE_CONTAINER",
         "TurnRate": 360.0,
+        "VSGuardian": {
+            "BaseDPS": 14.4,
+            "EndDPS": 54.0,
+            "EndDPSTimeInSeconds": 600.0,
+            "MaxRange": 12.0
+        },
+        "VSPatron": {
+            "BaseDPS": 50.0,
+            "MaxRange": 25.4,
+            "DamageResist": 50.0
+        },
+        "VSPatronPhase2": {
+            "BaseDPS": 50.0,
+            "MaxRange": 12.0,
+            "DamageResist": 50.0
+        },
+        "VSPlayer": {
+            "BaseDPS": 28.0,
+            "DamageResist": -25.0
+        },
+        "VSShrine": {
+            "BaseDPS": 50.0,
+            "MaxRange": 11.43
+        },
+        "VSTrooper": {
+            "BaseDPS": 35.0,
+            "MaxRange": 17.78,
+            "DamageResist": 42.5
+        },
+        "VSWalker": {
+            "BaseDPS": 24.0,
+            "EndDPS": 84.0,
+            "EndDPSTimeInSeconds": 1200.0,
+            "MaxRange": 17.78,
+            "DamageResist": 80.0
+        },
+        "VSWatcher": {
+            "BaseDPS": 80.0,
+            "DamageResist": 67.5
+        },
         "WalkSpeed": 6.299,
         "WeaponInfo": {
             "BulletSpeed": 304.8,
@@ -4220,7 +4321,7 @@
             "ClipSize": -1,
             "ReloadTime": 1.8,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 15.24,
             "FalloffEndRange": 25.4,
@@ -4248,7 +4349,7 @@
             "ClipSize": 10,
             "ReloadTime": 1.5,
             "ReloadMovespeed": 0.023622,
-            "ReloadDelay": 0,
+            "ReloadDelay": 0.0,
             "ReloadSingle": false,
             "FalloffStartRange": 50.8,
             "FalloffEndRange": 76.2,
