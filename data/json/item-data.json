@@ -1217,6 +1217,12 @@
                 "Value": 1.8,
                 "Type": "spirit"
             }
+        },
+        "PropertyUpgrades": {
+            "BulletResist": 14,
+            "TechResist": 14,
+            "AbilityCooldown": -35,
+            "VexBarrierCombatBarrier": 450
         }
     },
     "upgrade_banshee_slugs": {
@@ -7758,6 +7764,7 @@
         "StackingGoldPerMinute": 18,
         "ThinkRate": 3,
         "MaxStacks": 16,
+        "NonPlayerBonusWeaponPower": -15,
         "PropertyUpgrades": {
             "StackingTechRadiusMultiplier": 3,
             "StackingTechRangeMultiplier": 3,
