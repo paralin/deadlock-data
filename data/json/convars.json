@@ -896,7 +896,7 @@
         "value": 20,
         "description": "Distance(m) from Objective to consider it pushed to"
     },
-    "citadel_bot_test_disconnect": true,
+    "citadel_bot_test_disconnect": false,
     "citadel_bot_test_mode": {
         "value": false,
         "description": "Set citadel bots to be and in test mode (default idle)"
@@ -1797,7 +1797,7 @@
         "description": "Turns on/off rendering the HUD"
     },
     "citadel_idle_time": {
-        "value": 300,
+        "value": 180,
         "description": "How long a player needs to be idle before he counts as disconnected."
     },
     "citadel_idle_time_grace_period": {
@@ -2582,10 +2582,6 @@
     "citadel_recent_comms_session_attempt_throttled_count": 75,
     "citadel_recent_comms_throttling_limit": 10,
     "citadel_recent_comms_throttling_penalty": 10,
-    "citadel_reconnect_idle_buffer_time": {
-        "value": 45,
-        "description": "How much extra time the player has after reconnecting before he gets marked as AFK."
-    },
     "citadel_region_override": {
         "value": -1,
         "description": "Override the region of the client"
@@ -2858,10 +2854,6 @@
     "citadel_t1_boss_melee_damage": 200,
     "citadel_team_size": 6,
     "citadel_teleporter_enabled_time": 1,
-    "citadel_test_ranked_summary": {
-        "value": false,
-        "description": "Test Ranked Summary"
-    },
     "citadel_tether_pull_speed": 200,
     "citadel_tether_pull_speed_scale_per_meter": 120,
     "citadel_text_chat_enabled": true,
