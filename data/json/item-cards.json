@@ -638,9 +638,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -706,9 +704,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -774,9 +770,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -842,9 +836,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -910,9 +902,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -978,9 +968,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -1044,10 +1032,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "ClipSize"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -1100,11 +1085,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -1117,14 +1098,12 @@
                 {
                     "Key": "NonPlayerBonusWeaponPower",
                     "Value": 25,
-                    "Type": "bullet_damage",
-                    "UsageFlags": "ConditionallyApplied"
+                    "Type": "bullet_damage"
                 },
                 {
                     "Key": "NonPlayerBulletResist",
                     "Value": 25,
-                    "Type": "bullet_damage",
-                    "UsageFlags": "ConditionallyApplied"
+                    "Type": "bullet_damage"
                 }
             ],
             "Alt": [
@@ -1173,11 +1152,7 @@
             "Neutral",
             "MinionEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -1196,14 +1171,12 @@
                 {
                     "Key": "NonPlayerBonusWeaponPower",
                     "Value": 30,
-                    "Type": "bullet_damage",
-                    "UsageFlags": "ConditionallyApplied"
+                    "Type": "bullet_damage"
                 },
                 {
                     "Key": "NonPlayerBulletResist",
                     "Value": 30,
-                    "Type": "bullet_damage",
-                    "UsageFlags": "ConditionallyApplied"
+                    "Type": "bullet_damage"
                 }
             ]
         },
@@ -1256,6 +1229,18 @@
             "NonPlayerBonusWeaponPower": 30,
             "NonPlayerBulletResist": 30
         },
+        "CorruptedUpgrades": {
+            "OutOfCombatHealthRegen": 6,
+            "NonPlayerBonusWeaponPower": 45,
+            "NonPlayerBulletResist": 20,
+            "BaseAttackDamagePercent": 40,
+            "BonusHealth": 450,
+            "TechRangeMultiplier": 13,
+            "TechRadiusMultiplier": 13,
+            "BonusSoulsPct": 70,
+            "AbilityDuration": 40,
+            "AbilityCooldown": -210
+        },
         "Other": {
             "AbilityCastRange": {
                 "Key": "AbilityCastRange",
@@ -1304,10 +1289,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "ClipSize"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -1463,10 +1445,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -1505,6 +1484,14 @@
         "Upgrades": {
             "DamagePerChain": 25,
             "BonusPerChain": 25
+        },
+        "CorruptedUpgrades": {
+            "DamagePerChain": 47,
+            "BonusPerChain": 47,
+            "ProcChance": 5,
+            "ProcCooldown": -0.03,
+            "ChainCount": 4,
+            "ChainRadius": "7m"
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -1553,10 +1540,7 @@
             "BossEnemy",
             "MinionEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -1637,6 +1621,17 @@
             "DamagePerChain": 25,
             "AbilityCooldown": -32,
             "Damage": 25
+        },
+        "CorruptedUpgrades": {
+            "BonusFireRate": 15,
+            "ChainRadius": "5m",
+            "DamagePerChain": 37,
+            "BonusPerChain": 37,
+            "ChainCount": 2,
+            "ProcCooldown": -0.03,
+            "AbilityCooldown": -15,
+            "SlowDuration": 1,
+            "Damage": 100
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -1816,10 +1811,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -1874,6 +1866,14 @@
             "BonusHealth": 150,
             "BaseAttackDamagePercent": 25
         },
+        "CorruptedUpgrades": {
+            "OutOfCombatHealthRegen": 5.5,
+            "BonusHealth": 175,
+            "BaseAttackDamagePercent": 30,
+            "BulletArmorReduction": -11,
+            "DebuffDuration": 4,
+            "LifeThreshold": -15
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -1909,10 +1909,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -2045,9 +2042,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -2104,11 +2099,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "Durability",
-            "Melee",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -2181,11 +2172,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "Durability",
-            "Melee",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -2223,6 +2210,11 @@
                     "Value": 30,
                     "Type": "damage",
                     "UsageFlags": "ConditionallyApplied"
+                },
+                {
+                    "Key": "ParrySuccessHealPercentage",
+                    "Value": 100,
+                    "Type": "healing"
                 }
             ],
             "Alt": [
@@ -2253,11 +2245,6 @@
                 "Key": "ChannelMoveSpeed",
                 "Value": -1,
                 "Type": "move_speed"
-            },
-            "ParrySuccessHealPercentage": {
-                "Key": "ParrySuccessHealPercentage",
-                "Value": 100,
-                "Type": "healing"
             }
         }
     },
@@ -2273,11 +2260,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "Durability",
-            "Melee",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -2346,6 +2329,16 @@
             "BonusMoveSpeed": "2m",
             "AbilityCooldown": -8
         },
+        "CorruptedUpgrades": {
+            "BonusHealth": 200,
+            "SpiritPowerInnate": 17,
+            "SpiritPower": 20,
+            "HealOnSuccess": 250,
+            "BonusMoveSpeed": "1.25m",
+            "BuffDuration": 3,
+            "SpellParryDuration": 0.2,
+            "AbilityCooldown": -10
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -2377,9 +2370,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -2449,6 +2440,14 @@
             "SlowPercent": 16,
             "GroundDashReductionPercent": -8
         },
+        "CorruptedUpgrades": {
+            "BaseAttackDamagePercent": 40,
+            "StatusResistancePercent": 23,
+            "SlowPercent": 12,
+            "GroundDashReductionPercent": -12,
+            "SlowDuration": 1.5,
+            "BuildUpPerShot": -0.2
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -2481,9 +2480,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": true,
         "IsImbue": false,
@@ -2511,12 +2508,6 @@
                     "Type": "duration"
                 },
                 {
-                    "Key": "DegenResistance",
-                    "Value": 40,
-                    "Type": "healing",
-                    "UsageFlags": "IntrinsicallyProvidedInAbility"
-                },
-                {
                     "Key": "OutOfCombatHealthRegen",
                     "Value": 40,
                     "Type": "healing"
@@ -2524,7 +2515,6 @@
             ]
         },
         "Upgrades": {
-            "DegenResistance": 10,
             "StatusResistancePercent": 10,
             "TechResist": 10,
             "OutOfCombatHealthRegen": 10,
@@ -2557,10 +2547,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -2586,8 +2573,7 @@
                 {
                     "Key": "CloseRangeBonusWeaponPower",
                     "Value": 20,
-                    "Type": "bullet_damage",
-                    "UsageFlags": "ConditionallyApplied"
+                    "Type": "bullet_damage"
                 }
             ],
             "Alt": [
@@ -2629,10 +2615,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "ClipSize"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -2664,8 +2647,7 @@
                 {
                     "Key": "LongRangeBonusWeaponPower",
                     "Value": 40,
-                    "Type": "bullet_damage",
-                    "UsageFlags": "ConditionallyApplied"
+                    "Type": "bullet_damage"
                 }
             ],
             "Alt": [
@@ -2709,10 +2691,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -2785,11 +2764,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "Disruption",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -2849,6 +2824,13 @@
             "HealAmpRegenPenaltyPercent": -20,
             "BonusHealth": 125,
             "BaseAttackDamagePercent": 20
+        },
+        "CorruptedUpgrades": {
+            "BonusHealth": 300,
+            "BaseAttackDamagePercent": 15,
+            "OutgoingDamagePenaltyPercent": -15,
+            "HealAmpReceivePenaltyPercent": -15,
+            "BuildUpDuration": 4
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -2924,7 +2906,7 @@
     },
     "upgrade_tech_defense_shredders": {
         "Key": "upgrade_tech_defense_shredders",
-        "Name": "Spirit Shredder Bullets",
+        "Name": "Spirit Shredder",
         "Description": "Your bullets apply a debuff that reduces the <span class=\"highlight\">Spirit Resist</span> of the target and grants you and your allies <span class=\"highlight\">Spirit Lifesteal</span> against them.",
         "Cost": 1600,
         "Tier": 2,
@@ -2934,10 +2916,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -3045,11 +3024,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "FireRate",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -3136,11 +3111,7 @@
         "TargetTypes": [
             "AllFriendly"
         ],
-        "ShopFilters": [
-            "FireRate",
-            "Healing",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -3216,6 +3187,16 @@
             "BulletResist": 10,
             "ActiveRadius": "15m"
         },
+        "CorruptedUpgrades": {
+            "BonusSprintSpeed": "1.5m",
+            "BulletResist": 11,
+            "BonusFireRate": 24,
+            "ActiveBonusMoveSpeed": "1.25m",
+            "Radius": "10m",
+            "ActiveRadius": "10m",
+            "AbilityDuration": 2,
+            "AbilityCooldown": -8
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -3249,9 +3230,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -3336,10 +3315,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -3382,12 +3358,6 @@
                     "Key": "AbilityCastRange",
                     "Value": "40m",
                     "Type": "range"
-                },
-                {
-                    "Key": "AbilityDuration",
-                    "Value": 3,
-                    "Type": "duration",
-                    "LocTokenOverride": "#SilenceDuration"
                 }
             ]
         },
@@ -3396,7 +3366,21 @@
             "Damage": 125,
             "BonusHealth": 75
         },
+        "CorruptedUpgrades": {
+            "AbilityDuration": 1.25,
+            "AbilityCooldown": -22,
+            "CooldownOnMiss": -22,
+            "Damage": 175,
+            "AbilityCastRange": "20m",
+            "BonusHealth": 225
+        },
         "Other": {
+            "AbilityDuration": {
+                "Key": "AbilityDuration",
+                "Value": 3,
+                "Type": "duration",
+                "LocTokenOverride": "#SilenceDuration"
+            },
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
                 "Value": 1
@@ -3446,10 +3430,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": true,
         "IsImbue": false,
@@ -3554,10 +3535,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "Disruption",
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -3609,10 +3587,6 @@
             ],
             "Alt": [
                 {
-                    "Key": "SilenceDuration",
-                    "Value": 2.5
-                },
-                {
                     "Key": "ImmunityDuration",
                     "Value": 10
                 },
@@ -3626,6 +3600,11 @@
             "TechDamageReduction": -15,
             "SilenceDuration": 1.25,
             "TechResist": 15
+        },
+        "CorruptedUpgrades": {
+            "TechDamageReduction": -13,
+            "TechResist": 14,
+            "SilenceDuration": 0.6
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -3641,6 +3620,10 @@
                 "Key": "ChannelMoveSpeed",
                 "Value": -1,
                 "Type": "move_speed"
+            },
+            "SilenceDuration": {
+                "Key": "SilenceDuration",
+                "Value": 2.5
             },
             "BuildUpDuration": {
                 "Key": "BuildUpDuration",
@@ -3661,9 +3644,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -3796,11 +3777,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "ClipSize",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -3852,6 +3829,12 @@
             "BulletResist": 8,
             "MaxStacks": 8
         },
+        "CorruptedUpgrades": {
+            "BulletResist": 12,
+            "WeaponPowerPerStack": 7,
+            "MaxStacks": 3,
+            "DamageDuration": 5
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -3879,12 +3862,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "FireRate",
-            "ClipSize",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -3950,6 +3928,14 @@
             "FervorMovespeed": "3m",
             "FervorStatusResistancePercent": 15
         },
+        "CorruptedUpgrades": {
+            "BonusFireRate": 10,
+            "BulletLifestealPercent": 15,
+            "BonusHealth": 240,
+            "FervorMovespeed": "2m",
+            "FervorFireRate": 25,
+            "FervorStatusResistancePercent": 20
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -3983,10 +3969,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -4034,6 +4017,12 @@
         "Upgrades": {
             "HealthStealPctHero": 1.5,
             "BulletResist": 10
+        },
+        "CorruptedUpgrades": {
+            "BaseAttackDamagePercent": 25,
+            "BulletResist": 10,
+            "HealthStealPctHero": 1.5,
+            "StealDuration": 8
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -4083,10 +4072,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -4152,10 +4138,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -4232,10 +4215,7 @@
             "upgrade_high_velocity_mag"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "ClipSize"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -4288,8 +4268,7 @@
                 {
                     "Key": "LongRangeBonusWeaponPower",
                     "Value": 60,
-                    "Type": "bullet_damage",
-                    "UsageFlags": "ConditionallyApplied"
+                    "Type": "bullet_damage"
                 }
             ],
             "Alt": [
@@ -4305,6 +4284,14 @@
             "BonusAttackRangePercent": 10,
             "BonusBulletSpeedPercent": 45,
             "BaseAttackDamagePercent": 15
+        },
+        "CorruptedUpgrades": {
+            "BaseAttackDamagePercent": 20,
+            "BonusBulletSpeedPercent": 60,
+            "BonusSprintSpeed": "3m",
+            "BonusAttackRangePercent": 10,
+            "BonusZoomPercent": 5,
+            "LongRangeBonusWeaponPower": 40
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -4335,9 +4322,7 @@
             "upgrade_headshot_booster"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -4404,6 +4389,15 @@
             "HealPercentPerHeadshot": 4,
             "AbilityCooldown": -3
         },
+        "CorruptedUpgrades": {
+            "BonusHealth": 200,
+            "BaseAttackDamagePercent": 15,
+            "HeadShotBonusDamage": 150,
+            "HealPercentPerHeadshot": 3,
+            "BonusMoveSpeed": "0.75m",
+            "MovementSpeedBonusDuration": 1.5,
+            "AbilityCooldown": -3
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -4439,10 +4433,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -4512,6 +4503,15 @@
             "AbilityLifestealPercentHero": 10,
             "TechArmorDamageReduction": -10
         },
+        "CorruptedUpgrades": {
+            "BonusHealth": 175,
+            "AbilityLifestealPercentHero": 15,
+            "MagicResistReduction": -4,
+            "TechArmorDamageReduction": -6,
+            "MaxStacks": 1,
+            "DebuffDuration": 2,
+            "ProcCooldown": -0.5
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -4541,10 +4541,7 @@
             "upgrade_headshot_booster2"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -4601,6 +4598,13 @@
             "HealAmpReceivePenaltyPercent": -25,
             "HealAmpRegenPenaltyPercent": -25,
             "BonusHealth": 150
+        },
+        "CorruptedUpgrades": {
+            "BonusHealth": 225,
+            "BulletResistReduction": -9,
+            "MagicResistReduction": -9,
+            "HealAmpReceivePenaltyPercent": -20,
+            "HealAmpRegenPenaltyPercent": -20
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -4712,10 +4716,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -4797,10 +4798,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "ClipSize"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -4841,6 +4839,12 @@
             "BonusClipSizePercent": 40,
             "ProcChance": 5
         },
+        "CorruptedUpgrades": {
+            "BonusClipSizePercent": 45,
+            "Radius": "0.27m",
+            "CritDamagePercent": 20,
+            "ProcChance": 10
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -4877,11 +4881,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -4939,6 +4939,13 @@
             "MeleeResistPercent": 30,
             "BonusHealth": 150,
             "SlowPercent": 4
+        },
+        "CorruptedUpgrades": {
+            "BonusHealth": 175,
+            "MeleeResistPercent": 40,
+            "CloseRangeBonusWeaponPower": 50,
+            "SlowPercent": 15,
+            "SlowDuration": 1
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -5039,7 +5046,7 @@
     "upgrade_toxic_bullets": {
         "Key": "upgrade_toxic_bullets",
         "Name": "Toxic Bullets",
-        "Description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage</span> of their <span class=\"highlight\">Max Health</span> over time. Also applies <span class=\"highlight\">Healing Reduction</span> on the bleeding target.",
+        "Description": "Your bullets build up a <span class=\"highlight\">Bleed</span> on enemies, causing them to lose a <span class=\"highlight\">percentage</span> of their <span class=\"highlight\">Max Health</span> over time. Also reduces <span class=\"highlight\">Incoming Healing</span> on the bleeding target.",
         "Cost": 3200,
         "Tier": 3,
         "Slot": "Weapon",
@@ -5050,10 +5057,7 @@
             "CreepEnemy",
             "MinionEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -5095,6 +5099,14 @@
             "HealAmpReceivePenaltyPercent": -30,
             "HealAmpRegenPenaltyPercent": -30,
             "DotHealthPercent": 0.7
+        },
+        "CorruptedUpgrades": {
+            "DotHealthPercent": 1.1,
+            "DotDuration": 2,
+            "BuildUpPerShot": -0.48,
+            "HealAmpReceivePenaltyPercent": -25,
+            "HealAmpRegenPenaltyPercent": -25,
+            "DotMultiplerTroopers": 0.5
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -5232,9 +5244,7 @@
             "MinionEnemy",
             "Neutral"
         ],
-        "ShopFilters": [
-            "ClipSize"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -5265,8 +5275,9 @@
             ],
             "Alt": [
                 {
-                    "Key": "RicochetTargetsTooltipOnly",
-                    "Value": 2
+                    "Key": "RicochetTargets",
+                    "Value": 2,
+                    "LocTokenOverride": "RicochetTargetsTooltipOnly"
                 },
                 {
                     "Key": "RicochetRadius",
@@ -5278,6 +5289,12 @@
         "Upgrades": {
             "RicochetDamagePercent": 15,
             "BonusFireRate": 25
+        },
+        "CorruptedUpgrades": {
+            "BonusFireRate": 22,
+            "RicochetRadius": "5m",
+            "RicochetDamagePercent": 15,
+            "RicochetTargets": 1
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -5315,9 +5332,7 @@
             "MinionEnemy",
             "Neutral"
         ],
-        "ShopFilters": [
-            "ClipSize"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": true,
         "IsImbue": false,
@@ -5396,10 +5411,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -5447,10 +5459,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -5545,10 +5554,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -5593,10 +5599,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -5686,10 +5689,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -5830,6 +5830,11 @@
                 }
             ]
         },
+        "CorruptedUpgrades": {
+            "HealAmount": 50,
+            "HealRadius": "5m",
+            "HealInterval": -0.5
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -5857,9 +5862,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -5921,9 +5924,7 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -5972,6 +5973,13 @@
             "HealOnActivate": 150,
             "TechResist": 20,
             "AbilityCooldown": -25
+        },
+        "CorruptedUpgrades": {
+            "TechResist": 12,
+            "HealOnActivate": 400,
+            "ActiveBonusMoveSpeed": "1.5m",
+            "BuffDuration": 2,
+            "AbilityCooldown": -23
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -6224,9 +6232,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -6275,6 +6281,12 @@
             "TechResist": 10,
             "TechResistBelowThreshold": 10
         },
+        "CorruptedUpgrades": {
+            "OutOfCombatHealthRegen": 15,
+            "TechResist": 15,
+            "TechResistBelowThreshold": 5,
+            "HealthThreshold": 15
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -6302,9 +6314,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -6353,6 +6363,11 @@
             "BulletResist": 10,
             "BulletResistBelowThreshold": 10
         },
+        "CorruptedUpgrades": {
+            "OutOfCombatHealthRegen": 15,
+            "BulletResist": 15,
+            "BulletResistBelowThreshold": 5
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -6380,10 +6395,7 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -6433,6 +6445,11 @@
             "AbilityCooldown": -2,
             "BulletResist": 5
         },
+        "CorruptedUpgrades": {
+            "BulletResist": 21,
+            "AbilityDuration": 1,
+            "AbilityCooldown": -6
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -6462,9 +6479,7 @@
             "upgrade_endurance"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -6538,12 +6553,7 @@
             "upgrade_health"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability",
-            "Healing",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -6599,6 +6609,13 @@
             "BonusMoveSpeed": "1m",
             "HealLifePercentOutOfCombat": 1
         },
+        "CorruptedUpgrades": {
+            "BonusHealth": 625,
+            "BonusMoveSpeed": "1.5m",
+            "HealLifePercentOutOfCombat": 2,
+            "RestoreDelay": -3,
+            "HealthThreshold": -15
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -6635,10 +6652,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -6683,6 +6697,13 @@
             "BonusHealth": 200,
             "TechPower": 15,
             "BaseAttackDamagePercent": 15
+        },
+        "CorruptedUpgrades": {
+            "BonusHealth": 220,
+            "AbilityLifestealPercentHero": 22,
+            "BulletLifestealPercent": 22,
+            "BaseAttackDamagePercent": 23,
+            "TechPower": 23
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -6765,11 +6786,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Healing",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -6826,11 +6843,7 @@
             "upgrade_sprint_booster"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Healing",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -6844,8 +6857,7 @@
                 {
                     "Key": "NonPlayerBonusWeaponPower",
                     "Value": -15,
-                    "Type": "bullet_damage",
-                    "UsageFlags": "ConditionallyApplied"
+                    "Type": "bullet_damage"
                 },
                 {
                     "Key": "BonusSprintSpeed",
@@ -6935,10 +6947,7 @@
             "upgrade_sprint_booster"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Movement",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -7010,11 +7019,7 @@
             "upgrade_improved_stamina"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Movement",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -7052,6 +7057,11 @@
             "AirMoveIncreasePercent": 40,
             "StaminaCooldownReduction": 15
         },
+        "CorruptedUpgrades": {
+            "Stamina": 2,
+            "StaminaCooldownReduction": 27,
+            "AirMoveIncreasePercent": 27
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -7081,11 +7091,7 @@
             "upgrade_superior_stamina"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Movement",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": true,
         "IsImbue": false,
@@ -7150,10 +7156,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "FireRate",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -7200,10 +7203,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "FireRate",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -7260,11 +7260,7 @@
             "CreepEnemy",
             "MinionEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "Disruption",
-            "ClipSize"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -7319,6 +7315,12 @@
             "BulletArmorReduction": -6,
             "BonusHealth": 125,
             "BonusSprintSpeed": "3m"
+        },
+        "CorruptedUpgrades": {
+            "BonusHealth": 200,
+            "BonusSprintSpeed": "4.25m",
+            "BulletArmorReduction": -8,
+            "FireRateSlow": 15
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -7455,9 +7457,7 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -7530,9 +7530,7 @@
             "upgrade_grit"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -7626,9 +7624,7 @@
             "upgrade_grit"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -7720,10 +7716,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -7805,10 +7798,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -7889,10 +7879,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -7939,10 +7926,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -8013,10 +7997,7 @@
             "upgrade_improved_spirit"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Movement",
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -8084,10 +8065,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -8165,6 +8143,15 @@
             "BonusHealth": 80,
             "TechPower": 9
         },
+        "CorruptedUpgrades": {
+            "BonusSpiritLifesteal": 15,
+            "BonusHealth": 85,
+            "BonusSpirit": 25,
+            "BonusAbilityDurationPercent": 5,
+            "AbilityLifestealPercentHero": 5,
+            "TechPower": 6,
+            "BonusFireRate": 20
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -8201,29 +8188,11 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability",
-            "MagicDamage",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
         "Info1": {
-            "Type": "Innate",
-            "DescKey": null,
-            "Cooldown": null,
-            "ChargeUp": null,
-            "Main": [],
-            "Alt": [
-                {
-                    "Key": "BulletResist",
-                    "Value": 10,
-                    "Type": "bullet_armor_up"
-                }
-            ]
-        },
-        "Info2": {
             "Type": "Active",
             "DescKey": "#upgrade_return_fire_desc",
             "Cooldown": 23.0,
@@ -8268,6 +8237,11 @@
                 "Key": "ChannelMoveSpeed",
                 "Value": -1,
                 "Type": "move_speed"
+            },
+            "BulletResist": {
+                "Key": "BulletResist",
+                "Value": 10,
+                "Type": "bullet_armor_up"
             }
         }
     },
@@ -8283,10 +8257,7 @@
             "upgrade_magic_reach"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -8323,6 +8294,11 @@
             "TechResist": 10,
             "TechRadiusMultiplier": 20,
             "TechRangeMultiplier": 20
+        },
+        "CorruptedUpgrades": {
+            "TechRangeMultiplier": 20,
+            "TechRadiusMultiplier": 20,
+            "TechResist": 10
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -8410,9 +8386,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -8466,11 +8440,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Healing",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -8537,10 +8507,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -8623,10 +8590,7 @@
             "CreepEnemy",
             "MinionEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -8705,10 +8669,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": true,
@@ -8769,6 +8730,13 @@
             "AbilityLifestealPercentHero": 25,
             "TechDamagePercent": 20
         },
+        "CorruptedUpgrades": {
+            "MovementSpeedSlow": 24,
+            "ImbueAbilityLifesteal": 28,
+            "TechDamagePercent": 15,
+            "AbilityLifestealPercentHero": 12,
+            "Radius": "4m"
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -8809,10 +8777,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -8874,10 +8839,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -8919,6 +8881,13 @@
             "CurrentHealthDamage": 5,
             "BonusHealth": 100,
             "Damage": 60
+        },
+        "CorruptedUpgrades": {
+            "CurrentHealthDamage": 4.5,
+            "Damage": 30,
+            "MinimumDamage": -65,
+            "AbilityChargeUpTime": -5,
+            "BonusHealth": 75
         },
         "Other": {
             "AbilityCooldown": {
@@ -9024,10 +8993,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -9091,7 +9057,7 @@
     "upgrade_healbane": {
         "Key": "upgrade_healbane",
         "Name": "Healbane",
-        "Description": "Your {g:citadel_inline_attribute:'SpiritDamage'} applies <span class=\"highlight\">Healing Reduction</span>. If an enemy hero dies under this effect, you receive a large heal.",
+        "Description": "Your {g:citadel_inline_attribute:'SpiritDamage'} reduces the enemy's <span class=\"highlight\">Incoming Healing</span>. If an enemy hero dies under this effect, you receive a large heal.",
         "Cost": 1600,
         "Tier": 2,
         "Slot": "Armor",
@@ -9100,11 +9066,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "Healing",
-            "Disruption",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -9189,9 +9151,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -9278,10 +9238,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -9334,6 +9291,11 @@
             "TechResist": 8,
             "TechArmorDamageReduction": -10,
             "MaxStacks": 6
+        },
+        "CorruptedUpgrades": {
+            "TechResist": 13,
+            "TechArmorDamageReduction": -4,
+            "MagicIncreasePerStack": 1.5
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -9401,6 +9363,12 @@
             "CooldownReductionOnChargedAbilities": 15,
             "BonusSpiritForChargedAbilities": 20,
             "CooldownBetweenChargeReduction": 5
+        },
+        "CorruptedUpgrades": {
+            "CooldownBetweenChargeReduction": 20,
+            "BonusSpiritForChargedAbilities": 11,
+            "CooldownReductionOnChargedAbilities": 6,
+            "BonusAbilityCharges": 1
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -9513,9 +9481,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": true,
@@ -9566,9 +9532,7 @@
             "upgrade_magic_tempo"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -9604,6 +9568,10 @@
             "CooldownReduction": 10,
             "OutOfCombatHealthRegen": 6
         },
+        "CorruptedUpgrades": {
+            "CooldownReduction": 17,
+            "OutOfCombatHealthRegen": 6
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -9633,9 +9601,7 @@
             "upgrade_cooldown_reduction"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -9677,6 +9643,11 @@
             "OutOfCombatHealthRegen": 10,
             "CooldownReduction": 15
         },
+        "CorruptedUpgrades": {
+            "CooldownReduction": 12,
+            "ItemCooldownReduction": 15,
+            "OutOfCombatHealthRegen": 6
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -9706,9 +9677,7 @@
             "upgrade_transcendent_cooldown"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": true,
         "IsImbue": false,
@@ -9780,10 +9749,7 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": true,
         "IsImbue": false,
@@ -9853,9 +9819,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": true,
@@ -9964,11 +9928,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "Movement",
-            "Disruption",
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -10057,9 +10017,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -10150,10 +10108,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "Disruption",
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -10177,35 +10132,34 @@
             "ChargeUp": null,
             "Main": [
                 {
-                    "Key": "AbilityDuration",
-                    "Value": 4.5,
-                    "Type": "duration"
+                    "Key": "StatusEffectEMP",
+                    "Value": null
                 },
                 {
                     "Key": "PercentDamage",
                     "Value": 35,
                     "Type": "damage"
-                },
+                }
+            ],
+            "Alt": [
                 {
                     "Key": "MagicResistReduction",
                     "Value": -9,
                     "Type": "tech_armor_down"
                 },
                 {
-                    "Key": "TechPowerReduction",
-                    "Value": -30,
-                    "Type": "spirit"
-                }
-            ],
-            "Alt": [
+                    "Key": "ResistReductionDuration",
+                    "Value": 12
+                },
                 {
                     "Key": "AbilityCastRange",
                     "Value": "25m",
                     "Type": "range"
                 },
                 {
-                    "Key": "ResistReductionDuration",
-                    "Value": 12
+                    "Key": "TechPowerReduction",
+                    "Value": -30,
+                    "Type": "spirit"
                 }
             ]
         },
@@ -10217,7 +10171,21 @@
             "AbilityDuration": 0.25,
             "AbilityCooldown": -12
         },
+        "CorruptedUpgrades": {
+            "BonusFireRate": 5,
+            "MagicResistReduction": -6,
+            "AbilityCastRange": "10m",
+            "AbilityCooldown": -10,
+            "AbilityDuration": 0.5,
+            "PercentDamage": 20,
+            "TechPowerReduction": -20
+        },
         "Other": {
+            "AbilityDuration": {
+                "Key": "AbilityDuration",
+                "Value": 4.5,
+                "Type": "duration"
+            },
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
                 "Value": 1
@@ -10251,10 +10219,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "Disruption",
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -10352,10 +10317,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "Disruption",
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -10413,6 +10375,13 @@
             "BulletArmorReduction": -7,
             "AbilityCooldown": -8
         },
+        "CorruptedUpgrades": {
+            "AbilityCooldown": -4,
+            "AbilityDuration": 1.25,
+            "BonusSprintSpeed": "2.2m",
+            "BonusHealth": 175,
+            "BulletArmorReduction": -7
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -10449,12 +10418,7 @@
         "TargetTypes": [
             "HeroFriendly"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Durability",
-            "Healing",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -10513,6 +10477,14 @@
             "HealPercentAmount": 15,
             "AbilityCooldown": -45
         },
+        "CorruptedUpgrades": {
+            "BonusSprintSpeed": "2.25m",
+            "TechRangeMultiplier": 12,
+            "TechRadiusMultiplier": 12,
+            "HealPercentAmount": 20,
+            "AbilityCastRange": "20m",
+            "AbilityCooldown": -32
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -10570,6 +10542,10 @@
                     "Type": "duration"
                 }
             ]
+        },
+        "CorruptedUpgrades": {
+            "AbilityCooldown": -209,
+            "RespawnDelay": -3
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -10635,6 +10611,11 @@
                 }
             ],
             "Alt": []
+        },
+        "CorruptedUpgrades": {
+            "TechPower": 10,
+            "AbilityCooldown": -84,
+            "RespawnHealthPercent": 43
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -10987,10 +10968,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -11068,6 +11046,15 @@
             "HealAmpRegenPenaltyPercent": -20,
             "DotHealthPercent": 0.375,
             "AbilityCooldown": -10
+        },
+        "CorruptedUpgrades": {
+            "DotHealthPercent": 1.05,
+            "AbilityCooldown": -13,
+            "AbilityCastRange": "15m",
+            "HealAmpReceivePenaltyPercent": -25,
+            "HealAmpRegenPenaltyPercent": -25,
+            "BonusHealth": 195,
+            "TechPower": 22
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -11183,6 +11170,13 @@
             "BonusHealth": 125,
             "AbilityDuration": 3
         },
+        "CorruptedUpgrades": {
+            "TechResist": 15,
+            "BonusHealth": 200,
+            "StatusResistancePercent": 15,
+            "AbilityCooldown": -10,
+            "MaxHealthPercentAsDPS": 0.7
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -11279,10 +11273,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -11314,11 +11305,6 @@
                 {
                     "Key": "StatusEffectStun",
                     "Value": null
-                },
-                {
-                    "Key": "StunDuration",
-                    "Value": 0.5,
-                    "Type": "duration"
                 }
             ],
             "Alt": [
@@ -11334,6 +11320,13 @@
             "TechRangeMultiplier": 6,
             "StunDuration": 0.75,
             "BonusHealth": 75
+        },
+        "CorruptedUpgrades": {
+            "StunDuration": 0.5,
+            "AbilityCooldown": -19,
+            "BonusHealth": 150,
+            "TechRangeMultiplier": 9,
+            "TechRadiusMultiplier": 9
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -11358,6 +11351,11 @@
             "StunDelay": {
                 "Key": "StunDelay",
                 "Value": 2,
+                "Type": "duration"
+            },
+            "StunDuration": {
+                "Key": "StunDuration",
+                "Value": 0.5,
                 "Type": "duration"
             },
             "VisualContractRadius": {
@@ -11391,12 +11389,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability",
-            "Movement",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -11460,10 +11453,18 @@
             ]
         },
         "Upgrades": {
-            "TechPower": 12,
+            "TechPower": 22,
             "BaseAttackDamagePercent": 20,
             "AbilityCooldown": -20,
             "ImpactDamage": 100
+        },
+        "CorruptedUpgrades": {
+            "SlowPercent": 16,
+            "BaseAttackDamagePercent": 20,
+            "AbilityCastRange": "15m",
+            "TechPower": 12,
+            "AbilityCooldown": -23,
+            "ImpactDamage": 31.4
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -11497,10 +11498,7 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -11535,6 +11533,12 @@
             "BulletResist": 20,
             "AbilityCastRange": "9m",
             "AbilityCooldown": -3
+        },
+        "CorruptedUpgrades": {
+            "BulletResist": 20,
+            "CasterBuffDuration": 2,
+            "AbilityCastRange": "2m",
+            "AbilityCooldown": -8
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -11597,6 +11601,10 @@
             "ChargeUp": null,
             "Main": [
                 {
+                    "Key": "StatusEffectImmobilize",
+                    "Value": null
+                },
+                {
                     "Key": "CaptureRadius",
                     "Value": "12m",
                     "Type": "distance"
@@ -11615,6 +11623,11 @@
                     "Type": "duration"
                 },
                 {
+                    "Key": "TetherDuration",
+                    "Value": 0.5,
+                    "Type": "duration"
+                },
+                {
                     "Key": "GroundDashReductionPercent",
                     "Value": -36,
                     "Type": "slow",
@@ -11628,6 +11641,15 @@
             "TechRadiusMultiplier": 10,
             "TechRangeMultiplier": 10,
             "SlowPercent": 12
+        },
+        "CorruptedUpgrades": {
+            "GroundDashReductionPercent": -9,
+            "SlowPercent": 12,
+            "TechRadiusMultiplier": 12,
+            "TechRangeMultiplier": 12,
+            "BonusSprintSpeed": "4.25m",
+            "CaptureRadius": "2.17m",
+            "AbilityCooldown": -22
         },
         "Other": {
             "AbilityCastRange": {
@@ -11653,10 +11675,6 @@
                 "Key": "ChannelMoveSpeed",
                 "Value": -1,
                 "Type": "move_speed"
-            },
-            "TetherDuration": {
-                "Key": "TetherDuration",
-                "Value": 0.5
             },
             "TetherRadius": {
                 "Key": "TetherRadius",
@@ -11694,6 +11712,9 @@
         },
         "Upgrades": {
             "AbilityCooldown": -210
+        },
+        "CorruptedUpgrades": {
+            "AbilityCooldown": -160
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -11737,10 +11758,7 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Movement",
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": true,
@@ -11754,14 +11772,12 @@
                 {
                     "Key": "TechResist",
                     "Value": 5,
-                    "Type": "tech_armor_up",
-                    "UsageFlags": "IntrinsicallyProvidedInAbility"
+                    "Type": "tech_armor_up"
                 },
                 {
                     "Key": "BulletResist",
                     "Value": 5,
-                    "Type": "bullet_armor_up",
-                    "UsageFlags": "IntrinsicallyProvidedInAbility"
+                    "Type": "bullet_armor_up"
                 }
             ]
         },
@@ -11771,12 +11787,24 @@
             "Cooldown": 30.0,
             "ChargeUp": null,
             "Main": [],
-            "Alt": []
+            "Alt": [
+                {
+                    "Key": "ImbuedCooldownMultiplier",
+                    "Value": 100,
+                    "Type": "cooldown"
+                }
+            ]
         },
         "Upgrades": {
             "BulletResist": 5,
             "TechResist": 5,
             "AbilityCooldown": -10
+        },
+        "CorruptedUpgrades": {
+            "BulletResist": 15,
+            "TechResist": 15,
+            "AbilityCooldown": -15,
+            "ImbuedCooldownMultiplier": -50
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -11796,10 +11824,6 @@
                 "Key": "ChannelMoveSpeed",
                 "Value": -1,
                 "Type": "move_speed"
-            },
-            "ImbuedCooldownMultiplier": {
-                "Key": "ImbuedCooldownMultiplier",
-                "Value": 1
             }
         }
     },
@@ -11815,10 +11839,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -11867,6 +11888,13 @@
         "Upgrades": {
             "BonusHealth": 75,
             "DamagePulseAmount": 30
+        },
+        "CorruptedUpgrades": {
+            "DamagePulseAmount": 20,
+            "DamagePulseRadius": "4m",
+            "BonusHealth": 150,
+            "MeleeResistPercent": 17,
+            "AbilityCooldown": -0.5
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -11953,6 +11981,12 @@
             "HealAmpRegenPenaltyPercent": 90,
             "DeathImmunityDuration": 0.5,
             "AbilityCooldown": -20
+        },
+        "CorruptedUpgrades": {
+            "BonusHealth": 300,
+            "BulletResist": 10,
+            "AbilityCooldown": -40,
+            "DeathImmunityDuration": 1.5
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -12101,11 +12135,7 @@
             "upgrade_sprint_booster"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "FireRate",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -12196,6 +12226,18 @@
             "AmbushBonusMeleeDamage": 30,
             "AmbushBonusTechPower": 35,
             "AbilityCooldown": -17
+        },
+        "CorruptedUpgrades": {
+            "OutOfCombatHealthRegen": 7,
+            "BonusSprintSpeed": "0.5m",
+            "InvisMoveSpeedMod": "3m",
+            "AmbushBonusFireRate": 35,
+            "AmbushBonusTechPower": 35,
+            "AmbushBonusMeleeDamage": 35,
+            "AmbushDuration": 3,
+            "AbilityDuration": 7,
+            "SpottedRadius": "-6m",
+            "AbilityCooldown": -15
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -12367,10 +12409,7 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -12400,6 +12439,14 @@
             "ChargeUp": null,
             "Main": [],
             "Alt": []
+        },
+        "CorruptedUpgrades": {
+            "TechPower": 12,
+            "BonusHealth": 200,
+            "AirControlPercent": 50,
+            "JumpVelocityHidden": "7.5m",
+            "InterruptCooldown": -2,
+            "AbilityCooldown": -6
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -12444,9 +12491,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -12489,6 +12534,15 @@
             "AbilityCooldown": -35,
             "CombatBarrier": 275,
             "InterruptCooldown": -3
+        },
+        "CorruptedUpgrades": {
+            "AbilityCooldown": -30,
+            "CombatBarrier": 300,
+            "BarrierDuration": 2,
+            "InterruptCooldown": -1.5,
+            "AirControlPercent": 90,
+            "AirControlPercentBarrier": 50,
+            "SlowPercent": 28
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -12553,6 +12607,22 @@
             "MinAimAngle": {
                 "Key": "MinAimAngle",
                 "Value": 30
+            },
+            "VelocityPitchScaleMin": {
+                "Key": "VelocityPitchScaleMin",
+                "Value": 0.8
+            },
+            "VelocityPitchScaleMax": {
+                "Key": "VelocityPitchScaleMax",
+                "Value": 1.8
+            },
+            "VelocityVolScaleMin": {
+                "Key": "VelocityVolScaleMin",
+                "Value": 0.25
+            },
+            "VelocityVolScaleMax": {
+                "Key": "VelocityVolScaleMax",
+                "Value": 1.0
             }
         }
     },
@@ -12597,6 +12667,11 @@
                     "Value": 15
                 }
             ]
+        },
+        "CorruptedUpgrades": {
+            "AssaultFireRate": 49,
+            "BulletLifestealPercent": 20,
+            "AssaultLifestealPercent": 16
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -12660,9 +12735,7 @@
             "TrooperFriendly",
             "MinionFriendly"
         ],
-        "ShopFilters": [
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -12720,6 +12793,13 @@
             "TechPower": 12,
             "TotalHealthRegen": 425
         },
+        "CorruptedUpgrades": {
+            "SpiritPower": 22,
+            "TechRadiusMultiplier": 13,
+            "TechRangeMultiplier": 13,
+            "TotalHealthRegen": 325,
+            "AbilityCooldown": -25
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -12759,10 +12839,7 @@
         "TargetTypes": [
             "HeroFriendly"
         ],
-        "ShopFilters": [
-            "Healing",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -12858,9 +12935,7 @@
         "TargetTypes": [
             "HeroFriendly"
         ],
-        "ShopFilters": [
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -12938,9 +13013,7 @@
         "TargetTypes": [
             "HeroFriendly"
         ],
-        "ShopFilters": [
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": true,
         "IsImbue": false,
@@ -13022,9 +13095,7 @@
             "upgrade_health_stealing_magic"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -13091,6 +13162,15 @@
             "BonusHealth": 50,
             "AbilityLifestealPercentHeroPassive": 16
         },
+        "CorruptedUpgrades": {
+            "AbilityLifestealPercentHero": 30,
+            "AbilityCooldown": -10,
+            "TechPower": 14,
+            "BonusHealth": 100,
+            "TechResist": 5,
+            "AbilityLifestealPercentHeroPassive": 7,
+            "BonusSpirit": 10
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -13126,10 +13206,7 @@
         "TargetTypes": [
             "HeroFriendly"
         ],
-        "ShopFilters": [
-            "Durability",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -13238,10 +13315,7 @@
         "TargetTypes": [
             "HeroFriendly"
         ],
-        "ShopFilters": [
-            "Durability",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -13300,6 +13374,14 @@
             "AbilityCooldown": -27,
             "TechRadiusMultiplier": 10,
             "TechRangeMultiplier": 10
+        },
+        "CorruptedUpgrades": {
+            "CombatBarrier": 250,
+            "BonusMoveSpeed": "1.25m",
+            "OutOfCombatHealthRegen": 8.5,
+            "AbilityCooldown": -21,
+            "TechRangeMultiplier": 5,
+            "TechRadiusMultiplier": 5
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -13437,10 +13519,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -13512,6 +13591,16 @@
             "BulletArmorReduction": -8,
             "SpiritPower": 15
         },
+        "CorruptedUpgrades": {
+            "SpiritPower": 20,
+            "DPS": 40,
+            "DPSMax": 80,
+            "DPSIncrease": 5.5,
+            "BulletArmorReduction": -5,
+            "Radius": "5m",
+            "AbilityDuration": 3,
+            "AbilityCooldown": -11
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -13565,9 +13654,7 @@
         "Activation": "InstantCastToggle",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -13631,6 +13718,14 @@
             "TechResist": 14,
             "OutOfCombatHealthRegen": 8
         },
+        "CorruptedUpgrades": {
+            "InnateStatusResistancePercent": 8,
+            "TechResist": 12,
+            "OutOfCombatHealthRegen": 6,
+            "BonusFireRate": 35,
+            "StatusResistancePercent": 15,
+            "BonusMoveSpeed": "2m"
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -13662,10 +13757,7 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "ClipSize",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -13772,12 +13864,7 @@
             "upgrade_improved_stamina"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "FireRate",
-            "ClipSize",
-            "Movement",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -13861,13 +13948,7 @@
             "upgrade_improved_stamina"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "FireRate",
-            "ClipSize",
-            "Movement",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -14068,10 +14149,7 @@
             "upgrade_debuff_reducer"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -14114,6 +14192,12 @@
             "AbilityCooldown": -35,
             "StatusResistancePercent": 15
         },
+        "CorruptedUpgrades": {
+            "BonusHealth": 175,
+            "StatusResistancePercent": 10,
+            "AbilityCooldown": -30,
+            "AbilityDuration": 1
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -14143,9 +14227,7 @@
             "upgrade_health"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -14223,6 +14305,19 @@
             "BuffTechResist": 10,
             "AbilityCooldown": -7
         },
+        "CorruptedUpgrades": {
+            "BonusBaseHealth": 10,
+            "BaseAttackDamagePercent": 15,
+            "BuffBulletResist": 10,
+            "BuffTechResist": 10,
+            "BonusMeleeDamagePercent": 15,
+            "ModelScaleGrowth": 0.05,
+            "ModelScaleGrowthTooltip": 5,
+            "SlowPercent": 8,
+            "GroundDashReductionPercent": -6,
+            "AbilityCooldown": -15,
+            "AbilityDuration": 2
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -14261,11 +14356,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Disruption",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -14372,11 +14463,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Disruption",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -14427,6 +14514,14 @@
             "AbilityCooldown": -12,
             "TechResist": 15,
             "FreezeDuration": 0.25
+        },
+        "CorruptedUpgrades": {
+            "SlowPercent": 30,
+            "TechResist": 15,
+            "Damage": 125,
+            "AbilityCooldown": -10,
+            "FreezeDuration": 0.5,
+            "EndRadius": "4m"
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -14488,10 +14583,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -14579,23 +14671,21 @@
     "upgrade_self_bubble": {
         "Key": "upgrade_self_bubble",
         "Name": "Ethereal Shift",
-        "Description": "You enter a void state and become <span class=\"highlight\">untargetable and invincible</span> for a short duration, during which you float slowly and cannot perform actions. Afterwards you gain <span class=\"highlight\">Spirit Power, Move Speed, and Spirit Resist</span>.<br>Can be canceled early.<br><span class=\"diminish\">Activation cancels any active ability.</span>",
+        "Description": "Instantly enter a void state and become Invulnerable for a short duration.",
         "Cost": 6400,
         "Tier": 4,
         "Slot": "Tech",
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
         "Info1": {
             "Type": "Active",
             "DescKey": "#upgrade_self_bubble_desc",
-            "Cooldown": 37.0,
+            "Cooldown": null,
             "ChargeUp": null,
             "Main": [
                 {
@@ -14605,7 +14695,14 @@
                     "LocTokenOverride": "ShiftingVeilDuration"
                 }
             ],
-            "Alt": [
+            "Alt": []
+        },
+        "Info2": {
+            "Type": "Active",
+            "DescKey": "#upgrade_self_bubble_desc2",
+            "Cooldown": 37.0,
+            "ChargeUp": null,
+            "Main": [
                 {
                     "Key": "BonusSpirit",
                     "Value": 20,
@@ -14623,17 +14720,13 @@
                     "Value": "3m",
                     "Type": "move_speed",
                     "UsageFlags": "ConditionallyApplied"
-                },
+                }
+            ],
+            "Alt": [
                 {
                     "Key": "BuffDuration",
                     "Value": 5,
                     "Type": "duration"
-                },
-                {
-                    "Key": "FloatMoveSpeed",
-                    "Value": "2.5m",
-                    "Type": "slow",
-                    "UsageFlags": "ConditionallyApplied"
                 }
             ]
         },
@@ -14644,6 +14737,13 @@
             "TechResist": 10,
             "AbilityCooldown": -10,
             "FloatMoveSpeed": "3.5m"
+        },
+        "CorruptedUpgrades": {
+            "TechResist": 15,
+            "BonusSpirit": 10,
+            "BonusMoveSpeed": "1m",
+            "AbilityCooldown": -15,
+            "AbilityDuration": 1
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -14667,6 +14767,12 @@
             "LiftHeight": {
                 "Key": "LiftHeight",
                 "Value": 200
+            },
+            "FloatMoveSpeed": {
+                "Key": "FloatMoveSpeed",
+                "Value": "2.5m",
+                "Type": "slow",
+                "UsageFlags": "ConditionallyApplied"
             }
         }
     },
@@ -14884,10 +14990,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "Disruption",
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -14927,6 +15030,12 @@
         },
         "Upgrades": {
             "AbilityCooldown": -40,
+            "AbilityDuration": 0.25
+        },
+        "CorruptedUpgrades": {
+            "SkipFrames": 2,
+            "AbilityCastRange": "15m",
+            "AbilityCooldown": -30,
             "AbilityDuration": 0.25
         },
         "Other": {
@@ -15139,6 +15248,10 @@
             "BonusAbilityDurationPercent": 12,
             "BulletResist": 8
         },
+        "CorruptedUpgrades": {
+            "BonusAbilityDurationPercent": 17,
+            "BulletResist": 10
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -15168,11 +15281,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "ClipSize",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -15213,6 +15322,11 @@
         "Upgrades": {
             "FireRatePerKill": 8,
             "BaseAttackDamagePercent": 60
+        },
+        "CorruptedUpgrades": {
+            "SlowPercent": 32,
+            "BaseAttackDamagePercent": 70,
+            "FireRatePerKill": 7
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -15274,12 +15388,7 @@
         "TargetTypes": [
             "HeroFriendly"
         ],
-        "ShopFilters": [
-            "FireRate",
-            "WeaponDamage",
-            "Movement",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -15344,6 +15453,16 @@
             "TechResist": 20,
             "BonusHealth": 110
         },
+        "CorruptedUpgrades": {
+            "BulletLifestealPercent": 21,
+            "BonusHealth": 150,
+            "BaseAttackDamagePercent": 12,
+            "ActiveBonusFireRate": 23,
+            "TechResist": 20,
+            "ActiveBonusMoveSpeed": "1.5m",
+            "AbilityDuration": 1.5,
+            "AbilityCooldown": -5
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -15381,12 +15500,7 @@
         "TargetTypes": [
             "HeroFriendly"
         ],
-        "ShopFilters": [
-            "FireRate",
-            "WeaponDamage",
-            "Movement",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -15454,6 +15568,16 @@
             "BulletResist": 10,
             "BulletLifestealPercent": 16,
             "BonusHealth": 110
+        },
+        "CorruptedUpgrades": {
+            "ActiveBonusLifesteal": 30,
+            "BaseAttackDamagePercent": 9,
+            "BonusHealth": 75,
+            "BulletLifestealPercent": 7,
+            "BulletResist": 5,
+            "ActiveBonusFireRate": 11,
+            "ActiveReloadPercent": 25,
+            "AbilityCooldown": -10
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -15740,11 +15864,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "Durability",
-            "Melee",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -15812,6 +15932,15 @@
             "BonusHealth": 125,
             "AbilityCooldown": -3
         },
+        "CorruptedUpgrades": {
+            "BonusHealth": 175,
+            "BonusMeleeDamagePercent": 24,
+            "SlowPercent": 12,
+            "SlowDuration": 1,
+            "LifestealHeal": 205,
+            "LifestealHealPercent": 30,
+            "AbilityCooldown": -1
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -15849,10 +15978,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Melee"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -15925,10 +16051,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Melee"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -15996,6 +16119,15 @@
             "TechPowerGain": 35,
             "TechPowerReduction": -35
         },
+        "CorruptedUpgrades": {
+            "TechPowerReduction": -25,
+            "TechPowerGain": 25,
+            "TechArmorDamageReduction": -8,
+            "TechArmorGain": 8,
+            "SpiritDamage": 100,
+            "BonusHealth": 175,
+            "BonusMeleeDamagePercent": 18
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -16044,9 +16176,7 @@
             "MinionEnemy",
             "Neutral"
         ],
-        "ShopFilters": [
-            "Melee"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -16127,9 +16257,7 @@
             "MinionEnemy",
             "Neutral"
         ],
-        "ShopFilters": [
-            "Melee"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -16211,6 +16339,15 @@
             "BonusMeleeDamagePercent": 15,
             "BulletResistReduction": -4,
             "BonusHeavyMeleeDamage": 15
+        },
+        "CorruptedUpgrades": {
+            "MeleeDistanceScale": 40,
+            "BonusMeleeDamagePercent": 18,
+            "BulletResist": 13,
+            "BonusHeavyMeleeDamage": 5,
+            "BulletResistReduction": -2,
+            "LightMeleeAmmo": 10,
+            "StunDuration": 0.5
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -16297,10 +16434,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "FireRate",
-            "ClipSize"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -16361,11 +16495,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Durability",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -16421,6 +16551,13 @@
             "CombatBarrier": 500,
             "AbilityCooldown": -14
         },
+        "CorruptedUpgrades": {
+            "CombatBarrier": 700,
+            "TechPower": 30,
+            "BonusAbilityDurationPercent": 15,
+            "UltimateCooldownReduction": 5,
+            "AbilityCooldown": -15
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -16435,119 +16572,6 @@
                 "Key": "ChannelMoveSpeed",
                 "Value": -1,
                 "Type": "move_speed"
-            }
-        }
-    },
-    "upgrade_stabilizing_tripod": {
-        "Key": "upgrade_stabilizing_tripod",
-        "Name": null,
-        "Description": null,
-        "Cost": 3200,
-        "Tier": 3,
-        "Slot": "Weapon",
-        "Activation": "Press",
-        "Components": null,
-        "TargetTypes": [
-            "AllEnemy"
-        ],
-        "ShopFilters": null,
-        "IsDisabled": true,
-        "StreetBrawl": false,
-        "IsImbue": false,
-        "Info1": {
-            "Type": "Innate",
-            "DescKey": null,
-            "Cooldown": null,
-            "ChargeUp": null,
-            "Main": [],
-            "Alt": [
-                {
-                    "Key": "StationaryWeaponPower",
-                    "Value": 40
-                },
-                {
-                    "Key": "StationaryRecoilReduction",
-                    "Value": 25
-                }
-            ]
-        },
-        "Info2": {
-            "Type": "Active",
-            "DescKey": "#upgrade_stabilizing_tripod_desc",
-            "Cooldown": 64.0,
-            "ChargeUp": null,
-            "Main": [
-                {
-                    "Key": "TurretLifetime",
-                    "Value": 20,
-                    "Type": "duration"
-                }
-            ],
-            "Alt": [
-                {
-                    "Key": "TurretAttackRange",
-                    "Value": "50m",
-                    "Type": "distance"
-                },
-                {
-                    "Key": "CasterHealthPercent",
-                    "Value": 100
-                }
-            ]
-        },
-        "Other": {
-            "AbilityDuration": {
-                "Key": "AbilityDuration",
-                "Value": 20,
-                "Type": "duration"
-            },
-            "AbilityCastRange": {
-                "Key": "AbilityCastRange",
-                "Value": "15m",
-                "Type": "range"
-            },
-            "AbilityUnitTargetLimit": {
-                "Key": "AbilityUnitTargetLimit",
-                "Value": 1
-            },
-            "AbilityCooldownBetweenCharge": {
-                "Key": "AbilityCooldownBetweenCharge",
-                "Value": -1.0,
-                "Type": "charge_cooldown"
-            },
-            "ChannelMoveSpeed": {
-                "Key": "ChannelMoveSpeed",
-                "Value": -1,
-                "Type": "move_speed"
-            },
-            "ModelScale": {
-                "Key": "ModelScale",
-                "Value": 1.0
-            },
-            "TickRate": {
-                "Key": "TickRate",
-                "Value": 0.5
-            },
-            "TrackingSpeed": {
-                "Key": "TrackingSpeed",
-                "Value": 125
-            },
-            "TurretAttackDelay": {
-                "Key": "TurretAttackDelay",
-                "Value": 0.35
-            },
-            "TurretDeployTime": {
-                "Key": "TurretDeployTime",
-                "Value": 2.0,
-                "Type": "duration"
-            },
-            "AttackConeAngle": {
-                "Key": "AttackConeAngle",
-                "Value": 10
-            },
-            "BulletSpeedOverride": {
-                "Key": "BulletSpeedOverride",
-                "Value": 6500
             }
         }
     },
@@ -16563,11 +16587,7 @@
             "upgrade_mystic_regeneration"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Movement",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -16645,6 +16665,13 @@
             "BonusHealth": 110,
             "BonusMoveSpeed": "1m"
         },
+        "CorruptedUpgrades": {
+            "HealingPerCast": 65,
+            "Regeneration": 5,
+            "BonusMoveSpeed": "2.25m",
+            "BonusHealth": 230,
+            "AbilityCooldown": -2
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -16674,11 +16701,7 @@
             "upgrade_soaring_spirit"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Movement",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -16716,6 +16739,12 @@
             "OutOfCombatHealthRegen": 4,
             "BonusHealth": 100
         },
+        "CorruptedUpgrades": {
+            "TechPower": 20,
+            "BonusHealth": 125,
+            "TechPowerPercent": 10,
+            "OutOfCombatHealthRegen": 4
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -16745,9 +16774,7 @@
             "upgrade_rapid_rounds"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -16804,6 +16831,13 @@
             "BonusFireRate": 14,
             "AbilityCooldown": -1
         },
+        "CorruptedUpgrades": {
+            "BonusFireRate": 10,
+            "SlideScale": 40,
+            "ActivatedFireRate": 33,
+            "BonusMoveSpeed": "1.25m",
+            "AbilityCooldown": -2.5
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -16831,10 +16865,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -16885,10 +16916,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "ClipSize",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -17012,10 +17040,7 @@
             "upgrade_improved_spirit"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": true,
@@ -17055,6 +17080,13 @@
             "ImbuedTechPower": 32,
             "FireRateBonus": 18,
             "BonusMoveSpeed": "2m"
+        },
+        "CorruptedUpgrades": {
+            "MoveWhileShootingSpeedPenaltyReductionPercent": 120,
+            "MoveWhileZoomedSpeedPenaltyReductionPercent": 120,
+            "ImbuedTechPower": 37,
+            "FireRateBonus": 25,
+            "BonusMoveSpeed": "2.3m"
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -17097,10 +17129,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "Healing",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -17177,10 +17206,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": true,
@@ -17258,10 +17284,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": true,
@@ -17326,6 +17349,11 @@
             "BulletsBonusMagicDamage": 20,
             "TechPower": 15
         },
+        "CorruptedUpgrades": {
+            "BonusFireRate": 28,
+            "BonusClipSizePercent": 40,
+            "TechPower": 23
+        },
         "Other": {
             "AbilityCooldown": {
                 "Key": "AbilityCooldown",
@@ -17364,10 +17392,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -17440,9 +17465,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -17505,10 +17528,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "ClipSize",
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -17582,11 +17602,7 @@
             "upgrade_clip_size"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -17643,6 +17659,14 @@
             "BonusHealth": 125,
             "WeaponPower": 10
         },
+        "CorruptedUpgrades": {
+            "BonusHealth": 200,
+            "BaseAttackDamagePercent": 32,
+            "BonusClipSizePercent": 55,
+            "BulletResistPerStack": 3,
+            "MaxArmorStacks": 25,
+            "BulletResistDuration": 11
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -17672,9 +17696,7 @@
             "upgrade_rapid_rounds"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -17728,10 +17750,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability",
-            "ClipSize"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -17793,12 +17812,22 @@
         "Upgrades": {
             "SpiritPower": 25,
             "InvisMoveSpeedMod": "6m",
-            "HealOnVeil": 300,
+            "HealOnVeil": 250,
             "AbilityCooldown": -9,
             "InvisDuration": 4,
             "BonusMoveSpeed": "4m",
             "OutOfCombatHealthRegen": 8,
             "BonusSprintSpeed": "12m"
+        },
+        "CorruptedUpgrades": {
+            "BonusHealth": 175,
+            "SpiritPower": 15,
+            "BonusSprintSpeed": "2m",
+            "OutOfCombatHealthRegen": 3,
+            "HealOnVeil": 165,
+            "InvisDuration": 3,
+            "BonusMoveSpeed": "2.5m",
+            "AbilityCooldown": -5
         },
         "Other": {
             "AbilityDuration": {
@@ -17862,9 +17891,7 @@
             "upgrade_grit"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -17941,9 +17968,7 @@
             "upgrade_vex_barrier"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -18004,6 +18029,13 @@
             "AbilityCooldown": -35,
             "VexBarrierCombatBarrier": 450
         },
+        "CorruptedUpgrades": {
+            "OutOfCombatHealthRegen": 6,
+            "VexBarrierCombatBarrier": 275,
+            "BulletResist": 5,
+            "TechResist": 5,
+            "AbilityCooldown": -30
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -18038,10 +18070,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -18120,10 +18149,7 @@
             "upgrade_clip_size"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "ClipSize",
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -18177,9 +18203,7 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -18254,9 +18278,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -18338,9 +18360,7 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -18409,6 +18429,15 @@
             "FlyMoveSpeed": "6m",
             "SummonDuration": -0.3
         },
+        "CorruptedUpgrades": {
+            "BonusHealth": 100,
+            "AirControlPercent": 35,
+            "BonusAbilityDurationPercent": 15,
+            "TechPower": 16,
+            "GravityScale": -10,
+            "AbilityCooldown": -15,
+            "FlyMoveSpeed": "5m"
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -18441,9 +18470,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -18503,10 +18530,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Melee"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -18584,11 +18608,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "ClipSize",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -18673,10 +18693,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -18737,10 +18754,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -18809,6 +18823,15 @@
             "DPS": 20,
             "ImmunityDuration": -6
         },
+        "CorruptedUpgrades": {
+            "TechRadiusMultiplier": 12,
+            "TechRangeMultiplier": 12,
+            "DamagePctVsNonHeroes": 55,
+            "ExplosionDamage": 100,
+            "DPS": 31,
+            "ImmunityDuration": -8,
+            "HealAmpReceivePenaltyPercent": -15
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -18866,10 +18889,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -18910,11 +18930,6 @@
                     "Value": null
                 },
                 {
-                    "Key": "StunDuration",
-                    "Value": 0.75,
-                    "Type": "duration"
-                },
-                {
                     "Key": "Damage",
                     "Value": 150,
                     "Type": "tech_damage"
@@ -18950,6 +18965,15 @@
             "BonusSprintSpeed": "5m",
             "StunDuration": 0.75
         },
+        "CorruptedUpgrades": {
+            "SlowPercent": 60,
+            "MovementSpeedSlow": 16,
+            "GroundDashReductionPercent": -10,
+            "BonusHealth": 275,
+            "BonusSprintSpeed": "2.25m",
+            "StunDuration": 0.65,
+            "Damage": 100
+        },
         "Other": {
             "AbilityDuration": {
                 "Key": "AbilityDuration",
@@ -18975,6 +18999,11 @@
                 "Value": 64,
                 "Type": "slow"
             },
+            "StunDuration": {
+                "Key": "StunDuration",
+                "Value": 0.75,
+                "Type": "duration"
+            },
             "GroundDashReductionPercent": {
                 "Key": "GroundDashReductionPercent",
                 "Value": -10,
@@ -18995,10 +19024,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "MagicDamage",
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -19088,10 +19114,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -19139,6 +19162,12 @@
             "CooldownReductionPerHit": 2,
             "TechResist": 5
         },
+        "CorruptedUpgrades": {
+            "CooldownReduction": 3,
+            "TechResist": 13,
+            "TechPower": 21,
+            "CooldownReductionPerHit": 1
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -19172,10 +19201,7 @@
             "upgrade_healing_booster"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "FireRate",
-            "Healing"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -19240,6 +19266,14 @@
             "BonusFireRate": 20,
             "BonusHealthRegen": 6
         },
+        "CorruptedUpgrades": {
+            "OutOfCombatHealthRegen": 6,
+            "BonusFireRate": 25,
+            "HealAmpCastPercent": 20,
+            "TechResist": 5,
+            "BonusHealthRegen": 4,
+            "BonusMoveSpeed": "1.25m"
+        },
         "Other": {
             "AbilityCooldown": {
                 "Key": "AbilityCooldown",
@@ -19280,11 +19314,7 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "FireRate",
-            "ClipSize"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -19362,10 +19392,7 @@
         "TargetTypes": [
             "HeroEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": true,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -19430,7 +19457,7 @@
     },
     "upgrade_aprounds": {
         "Key": "upgrade_aprounds",
-        "Name": "Armor Piercing Rounds",
+        "Name": "Armor Piercer",
         "Description": "Your Bullets have a chance to become unavoidable, <span class=\"highlight\">piercing through</span> enemies and <span class=\"highlight\">ignoring their Bullet Resistance</span>.",
         "Cost": 6400,
         "Tier": 4,
@@ -19440,10 +19467,7 @@
             "upgrade_high_velocity_mag"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "ClipSize",
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -19483,6 +19507,11 @@
             "ProcChance": 20,
             "BaseAttackDamagePercent": 30
         },
+        "CorruptedUpgrades": {
+            "BonusBulletSpeedPercent": 60,
+            "BaseAttackDamagePercent": 32,
+            "ProcChance": 15
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -19510,10 +19539,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "ClipSize",
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": true,
         "IsImbue": false,
@@ -19587,9 +19613,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -19630,6 +19654,11 @@
             "DeflectionPercent": 15,
             "BulletProcDeflectionPercent": 15
         },
+        "CorruptedUpgrades": {
+            "BonusHealth": 370,
+            "DeflectionPercent": 10,
+            "BulletProcDeflectionPercent": 15
+        },
         "Other": {
             "AbilityCooldown": {
                 "Key": "AbilityCooldown",
@@ -19668,9 +19697,7 @@
             "upgrade_debuff_reducer"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -19724,6 +19751,13 @@
             "StatusResistancePercent": 15,
             "AbilityCooldown": -3
         },
+        "CorruptedUpgrades": {
+            "BonusHealth": 160,
+            "StatusResistancePercent": 10,
+            "TechResist": 12,
+            "SpiritDamageReductionProc": 15,
+            "AbilityCooldown": -4
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -19753,9 +19787,7 @@
             "upgrade_cardio_calibrator"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -19816,6 +19848,13 @@
             "SlowResistancePercent": 15,
             "BonusHealthRegen": 8
         },
+        "CorruptedUpgrades": {
+            "SlowResistancePercent": 25,
+            "FireRateSlow": 20,
+            "MeleeResistPercent": 35,
+            "BonusMoveSpeed": "1.5m",
+            "BonusHealthRegen": 8
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -19843,10 +19882,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "MagicDamage",
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -19900,6 +19936,12 @@
             "BonusFireRate": 6,
             "CooldownReduction": 8
         },
+        "CorruptedUpgrades": {
+            "BonusFireRate": 7,
+            "CooldownReduction": 13,
+            "BuffDuration": 7,
+            "MaxStacks": 2
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -19927,9 +19969,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -20038,9 +20078,7 @@
             "upgrade_high_velocity_mag"
         ],
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -20112,6 +20150,14 @@
             "ProcBaseAttackDamagePercentAltFire": 25,
             "BonusBulletSpeedPercent": 45,
             "BaseAttackDamagePercent": 15
+        },
+        "CorruptedUpgrades": {
+            "BaseAttackDamagePercent": 22,
+            "BonusBulletSpeedPercent": 60,
+            "ProcBaseAttackDamagePercent": 105,
+            "ProcBaseAttackDamagePercentAltFire": 30,
+            "ProcBulletVelocity": 50,
+            "AbilityCooldown": -4
         },
         "Other": {
             "AbilityUnitTargetLimit": {
@@ -20237,11 +20283,6 @@
                     "Value": null
                 },
                 {
-                    "Key": "StunDuration",
-                    "Value": 2.0,
-                    "Type": "duration"
-                },
-                {
                     "Key": "DazeDuration",
                     "Value": 2.0,
                     "Type": "duration"
@@ -20288,6 +20329,11 @@
                 "Value": -1,
                 "Type": "move_speed"
             },
+            "StunDuration": {
+                "Key": "StunDuration",
+                "Value": 2.0,
+                "Type": "duration"
+            },
             "DazeMoveSpeed": {
                 "Key": "DazeMoveSpeed",
                 "Value": "2m",
@@ -20308,9 +20354,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "Disruption"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": true,
         "IsImbue": false,
@@ -20650,7 +20694,7 @@
     "upgrade_eldritch_shot": {
         "Key": "upgrade_eldritch_shot",
         "Name": "Haunting Shot",
-        "Description": "Your next bullet applies a powerful debuff reducing the enemy's damage output, healing and movement speed. It also deals {g:citadel_inline_attribute:'BonusSpiritDamage'} based on the targets current Health. <br><br>The bullet is larger and penetrates through targets.",
+        "Description": "Your next bullet applies a powerful debuff reducing the enemy's damage output, healing and movement speed. It also deals {g:citadel_inline_attribute:'BonusSpiritDamage'} based on the target's current Health. <br><br>The bullet is larger and penetrates through targets.",
         "Cost": 9999,
         "Tier": 5,
         "Slot": "Weapon",
@@ -20659,10 +20703,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage",
-            "MagicDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": true,
         "IsImbue": false,
@@ -20832,7 +20873,7 @@
     "upgrade_runed_gauntlets": {
         "Key": "upgrade_runed_gauntlets",
         "Name": "Runed Gauntlets",
-        "Description": "Everytime you land a heavy melee, your existing cooldowns get reduced.",
+        "Description": "Every time you land a heavy melee, your existing cooldowns get reduced.",
         "Cost": 9999,
         "Tier": 5,
         "Slot": "Weapon",
@@ -21022,9 +21063,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "FireRate"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": true,
         "IsImbue": false,
@@ -21399,9 +21438,7 @@
         "TargetTypes": [
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": true,
@@ -21444,6 +21481,14 @@
             "TechRangeMultiplier": 15,
             "TechRadiusMultiplier": 15
         },
+        "CorruptedUpgrades": {
+            "WeaponPowerPerStack": 15,
+            "WeaponPowerPerStackNonHero": 5,
+            "TechRangeMultiplier": 18,
+            "TechRadiusMultiplier": 18,
+            "NonHeroStackLimit": 4,
+            "AbilityDuration": 6
+        },
         "Other": {
             "AbilityUnitTargetLimit": {
                 "Key": "AbilityUnitTargetLimit",
@@ -21476,10 +21521,7 @@
         "Activation": "Passive",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage",
-            "Durability"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -21551,9 +21593,7 @@
         "Activation": "InstantCast",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "Movement"
-        ],
+        "ShopFilters": null,
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -21635,8 +21675,8 @@
             }
         }
     },
-    "cosmetic_item_snowball": {
-        "Key": "cosmetic_item_snowball",
+    "cosmetic_ability_snowball": {
+        "Key": "cosmetic_ability_snowball",
         "Name": "Snowball",
         "Description": "Throw snowballs at your friends and enemies. Distance and other properties improve as you make progress in the <span class=\"highlight\">2025 Holiday Challenge</span>.<br><br><span class=\"diminish\">Throwing a Snowball at an ally won't inflict damage and will reset its cooldown.</span>",
         "Cost": null,
@@ -21648,15 +21688,13 @@
             "AllFriendly",
             "AllEnemy"
         ],
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": [],
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
         "Info1": {
             "Type": "Active",
-            "DescKey": "#cosmetic_item_snowball_desc",
+            "DescKey": "#cosmetic_ability_snowball_desc",
             "Cooldown": 18,
             "ChargeUp": null,
             "Main": [
@@ -21778,9 +21816,9 @@
             }
         }
     },
-    "cosmetic_item_voting_poster": {
-        "Key": "cosmetic_item_voting_poster",
-        "Name": "Place Poster",
+    "cosmetic_ability_voting_poster": {
+        "Key": "cosmetic_ability_voting_poster",
+        "Name": null,
         "Description": null,
         "Cost": null,
         "Tier": null,
@@ -21788,9 +21826,7 @@
         "Activation": "OnRelease",
         "Components": null,
         "TargetTypes": null,
-        "ShopFilters": [
-            "WeaponDamage"
-        ],
+        "ShopFilters": [],
         "IsDisabled": false,
         "StreetBrawl": false,
         "IsImbue": false,
@@ -21827,6 +21863,50 @@
             "Radius": {
                 "Key": "Radius",
                 "Value": 5
+            }
+        }
+    },
+    "cosmetic_ability_emote": {
+        "Key": "cosmetic_ability_emote",
+        "Name": null,
+        "Description": null,
+        "Cost": null,
+        "Tier": null,
+        "Slot": null,
+        "Activation": "InstantCast",
+        "Components": null,
+        "TargetTypes": null,
+        "ShopFilters": [],
+        "IsDisabled": false,
+        "StreetBrawl": false,
+        "IsImbue": false,
+        "Info1": {
+            "Type": null,
+            "DescKey": "#cosmetic_ability_emote_desc",
+            "Cooldown": null,
+            "ChargeUp": null,
+            "Main": [],
+            "Alt": []
+        },
+        "Other": {
+            "AbilityCooldown": {
+                "Key": "AbilityCooldown",
+                "Value": 5,
+                "Type": "cooldown"
+            },
+            "AbilityUnitTargetLimit": {
+                "Key": "AbilityUnitTargetLimit",
+                "Value": 1
+            },
+            "AbilityCooldownBetweenCharge": {
+                "Key": "AbilityCooldownBetweenCharge",
+                "Value": -1.0,
+                "Type": "charge_cooldown"
+            },
+            "ChannelMoveSpeed": {
+                "Key": "ChannelMoveSpeed",
+                "Value": -1,
+                "Type": "move_speed"
             }
         }
     }
