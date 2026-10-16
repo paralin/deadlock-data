@@ -4,6 +4,13 @@
         "key": "hero_atlas",
         "type": "hero"
     },
+    "abstract landscape": {
+        "name": "Abstract Landscape",
+        "key": "ability_artist_bamboogrove",
+        "hero_name": "Violet",
+        "hero_key": "hero_artist",
+        "type": "ability"
+    },
     "acrobat": {
         "name": "Acrobat",
         "key": "ability_swan_acrobat",
@@ -365,6 +372,13 @@
         "key": "upgrade_cheat_death",
         "type": "item"
     },
+    "chimera mk1": {
+        "name": "Chimera Mk1",
+        "key": "ability_deadpack_rocketeer",
+        "hero_name": "Deadman Danny",
+        "hero_key": "hero_deadpack",
+        "type": "ability"
+    },
     "cloak of opportunity": {
         "name": "Cloak of Opportunity",
         "key": "upgrade_cloak_of_opportunity",
@@ -374,6 +388,13 @@
         "name": "Close Quarters",
         "key": "upgrade_close_range",
         "type": "item"
+    },
+    "close the deal": {
+        "name": "Close The Deal",
+        "key": "ability_deadpack_ultimate",
+        "hero_name": "Deadman Danny",
+        "hero_key": "hero_deadpack",
+        "type": "ability"
     },
     "cold front": {
         "name": "Cold Front",
@@ -786,6 +807,13 @@
         "hero_key": "hero_lash",
         "type": "ability"
     },
+    "flow state": {
+        "name": "Flow State",
+        "key": "ability_artist_rollingprojectile",
+        "hero_name": "Violet",
+        "hero_key": "hero_artist",
+        "type": "ability"
+    },
     "flying cloak": {
         "name": "Flying Cloak",
         "key": "synth_plasma_flux",
@@ -1165,6 +1193,13 @@
         "hero_key": "hero_necro",
         "type": "ability"
     },
+    "jettison fuel": {
+        "name": "Jettison Fuel",
+        "key": "ability_deadpack_flamethrower",
+        "hero_name": "Deadman Danny",
+        "hero_key": "hero_deadpack",
+        "type": "ability"
+    },
     "jeté": {
         "name": "Jeté",
         "key": "ability_swan_leap",
@@ -1318,6 +1353,13 @@
         "key": "ability_familiar_helpinghands",
         "hero_name": "Rem",
         "hero_key": "hero_familiar",
+        "type": "ability"
+    },
+    "living ink": {
+        "name": "Living Ink",
+        "key": "ability_artist_homingbrush",
+        "hero_name": "Violet",
+        "hero_key": "hero_artist",
         "type": "ability"
     },
     "long range": {
@@ -2332,6 +2374,13 @@
         "hero_key": "hero_bebop",
         "type": "ability"
     },
+    "still life": {
+        "name": "Still Life",
+        "key": "ability_artist_tether",
+        "hero_name": "Violet",
+        "hero_key": "hero_artist",
+        "type": "ability"
+    },
     "stone form": {
         "name": "Stone Form",
         "key": "citadel_ability_tengu_stone_form",
@@ -2344,6 +2393,13 @@
         "key": "citadel_ability_storm_cloud",
         "hero_name": "Seven",
         "hero_key": "hero_gigawatt",
+        "type": "ability"
+    },
+    "strix salvo": {
+        "name": "Strix Salvo",
+        "key": "ability_deadpack_chargeblast",
+        "hero_name": "Deadman Danny",
+        "hero_key": "hero_deadpack",
         "type": "ability"
     },
     "superior cooldown": {
